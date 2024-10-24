@@ -43,12 +43,12 @@
 <project name="android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="LineageOS" />
 
 <!-- Prebuilt Kernel -->
-<project name="neutrino_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="Trijal08" revision="15"/>
+<project name="Trijal08/neutrino_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="15"/>
 
 <!-- Extra trees -->
 <project name="SigmaDroid-Project/vendor_google_faceunlock" path="vendor/google/faceunlock" remote="GitHub" revision="sigma-14.3"/>
 <project name="SigmaDroid-Project/packages_apps_PixelParts" path="packages/apps/PixelParts" remote="GitHub" revision="sigma-14.3" />
-<project name="ashoss/vendor_bcr" path="vendor/bcr" remote="GitHub" revision="main"/>
+<project name="ashoss/vendor_bcr" path="vendor/bcr" remote="github" revision="main"/>
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="GitHub" revision="v4a"/>
 
 </manifest>
