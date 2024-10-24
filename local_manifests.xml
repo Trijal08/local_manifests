@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch="https://github.com/" />
+<remote  name="Trijal08"
+         fetch="https://github.com/Trijal08/" />
+<remote  name="LineageOS"
+         revision="lineage-22.0"
+         fetch="https://github.com/LineageOS/" />
+<remote  name="TheMuppets"
+         revision="lineage-22.0"
+         fetch="https://github.com/TheMuppets/" />
+<remote  name="GitHub"
+         fetch="https://github.com/" />
 
 <!-- Removed Projects -->
 <remove-project path="device/google/shusky" />
@@ -17,30 +25,30 @@
 <remove-project path="hardware/google/graphics/common" />
 
 <!-- Lineage OS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="StatiXOS-15" />
-<project name="LineageOS/android_device_google_husky" path="device/google/husky" remote="github" revision="lineage-22.0" />
-<project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-22.0" />
-<project name="LineageOS/android_device_google_gs101" path="device/google/gs101" remote="github" revision="lineage-22.0" />
-<project name="LineageOS/android_device_google_zuma" path="device/google/zuma" remote="github" revision="lineage-22.0" />
+<project name="android_device_google_shusky" path="device/google/shusky" remote="Trijal08" revision="StatiXOS-15" />
+<project name="android_device_google_husky" path="device/google/husky" remote="LineageOS" />
+<project name="android_device_google_gs-common" path="device/google/gs-common" remote="LineageOS" />
+<project name="android_device_google_gs101" path="device/google/gs101" remote="LineageOS" />
+<project name="android_device_google_zuma" path="device/google/zuma" remote="LineageOS" />
 
 <!-- Lineage OS Pixel Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="lineage-22.0" />
-<project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="lineage-22.0" />
+<project name="proprietary_vendor_google_husky" path="vendor/google/husky" remote="TheMuppets" />
+<project name="proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="TheMuppets" />
 
 <!-- LineageOS Hardware Trees -->
-<project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="lineage-22.0" />
-<project name="LineageOS/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="github" revision="lineage-22.0" />
-<project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-22.0" />
-<project name="LineageOS/android_hardware_google_gchips" path="hardware/google/gchips" remote="github" revision="lineage-22.0" />
-<project name="LineageOS/android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="github" revision="lineage-22.0" />
+<project name="android_hardware_google_pixel" path="hardware/google/pixel" remote="LineageOS" />
+<project name="android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="LineageOS" />
+<project name="android_hardware_google_camera" path="hardware/google/camera" remote="LineageOS" />
+<project name="android_hardware_google_gchips" path="hardware/google/gchips" remote="LineageOS" />
+<project name="android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="LineageOS" />
 
 <!-- Prebuilt Kernel -->
 <project name="Trijal08/neutrino_device_google_shusky-kernels_5.15" path="device/google/shusky-kernels/5.15" remote="github" revision="15"/>
 
 <!-- Extra trees -->
-<project name="SigmaDroid-Project/vendor_google_faceunlock" path="vendor/google/faceunlock" remote="github" revision="sigma-14.3"/>
-<project name="SigmaDroid-Project/packages_apps_PixelParts" path="packages/apps/PixelParts" remote="github" revision="sigma-14.3" />
+<project name="SigmaDroid-Project/vendor_google_faceunlock" path="vendor/google/faceunlock" remote="GitHub" revision="sigma-14.3"/>
+<project name="SigmaDroid-Project/packages_apps_PixelParts" path="packages/apps/PixelParts" remote="GitHub" revision="sigma-14.3" />
 <project name="ashoss/vendor_bcr" path="vendor/bcr" remote="github" revision="main"/>
-<project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a"/>
+<project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="GitHub" revision="v4a"/>
 
 </manifest>
