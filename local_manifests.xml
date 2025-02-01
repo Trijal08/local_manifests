@@ -7,7 +7,6 @@
 <remove-project path="hardware/google/graphics/common" />
 <remove-project path="hardware/google/gchips" />
 <remove-project path="hardware/google/camera" />
-<remove-project path="packages/apps/ParanoidGlyphPhone2" />
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
 <project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="Mist_OS-15.1" />
