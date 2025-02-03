@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Removed Projects -->
-<remove-project path="hardware/google/pixel" />
-<remove-project path="hardware/google/pixel-sepolicy" />
-<remove-project path="hardware/google/graphics/common" />
-<remove-project path="hardware/google/gchips" />
-<remove-project path="hardware/google/camera" />
-
 <!-- crDroid and LineageOS Pixel Device Trees -->
 <!-- project name="Trijal08/android_device_google_bonito-new" path="device/google/bonito" remote="github" revision="lineage-22.1" / -->
 <project name="Trijal08/android_device_google_bonito" path="device/google/bonito" remote="github" revision="Mist_OS-15.1" />
@@ -16,13 +9,6 @@
 <!-- LineageOS Pixel Vendor Trees -->
 <project name="TheMuppets/proprietary_vendor_google_sargo" path="vendor/google/sargo" remote="github" revision="lineage-22.1" clone-depth="1" />
 <project name="TheMuppets/proprietary_vendor_google_bonito" path="vendor/google/bonito" remote="github" revision="lineage-22.1" clone-depth="1" />
-
-<!-- LineageOS hardware trees -->
-<project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="lineage-22.1" />
-<project name="LineageOS/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="github" revision="lineage-22.1" />
-<project name="LineageOS/android_hardware_google_gchips" path="hardware/google/gchips" remote="github" revision="lineage-22.1" />
-<project name="LineageOS/android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="github" revision="lineage-22.1" />
-<project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-22.1" />
 
 <!-- Kernel source -->
 <project name="Evolution-X-Devices/kernel_google_b4s4" path="kernel/google/b4s4" remote="github" revision="vic" clone-depth="1" />
