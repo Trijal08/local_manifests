@@ -10,7 +10,7 @@
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
 <project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="Mist_OS-15.1" />
-<project name="LineageOS/device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-22.1" />
+<project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-22.1" />
 <project name="LineageOS/android_device_google_gs101" path="device/google/gs101" remote="github" revision="lineage-22.1" />
 <project name="Trijal08/android_device_google_zuma" path="device/google/zuma" remote="github" revision="15.1" />
 
