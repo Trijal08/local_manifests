@@ -11,7 +11,7 @@
 <project name="TheMuppets/proprietary_vendor_google_bonito" path="vendor/google/bonito" remote="github" revision="lineage-22.1" clone-depth="1" />
 
 <!-- Kernel source -->
-<project name="Trijal08/anaconda_kernel_google_b4s4" path="kernel/google/b4s4" remote="github" revision="anaconda-sdm670" clone-depth="1" />
+<project name="Evolution-X-Devices/kernel_google_b4s4" path="kernel/google/b4s4" remote="github" revision="vic" clone-depth="1" />
 
 <!-- Extra trees -->
 <project name="Oneloutre/vendor_Camera" path="vendor/Camera/b4s4" remote="github" revision="b4s4" />
