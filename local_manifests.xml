@@ -8,9 +8,9 @@
 <project name="LineageOS/android_device_google_gs101" path="device/google/gs101" remote="github" revision="lineage-22.1" />
 <project name="Trijal08/android_device_google_zuma" path="device/google/zuma" remote="github" revision="15.1" />
 
-<!-- LineageOS (TheMuppets) Pixel Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="lineage-22.1" clone-depth="1" />
-<project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="lineage-22.1" clone-depth="1" />
+<!-- RisingOS Pixel Vendor Trees -->
+<project name="austineyoung2000/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="fifteen" clone-depth="1" />
+<project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="fifteen" clone-depth="1" />
 
 <!-- Prebuilt Kernel -->
 <project name="device/google/shusky-kernels/5.15" path="device/google/shusky-kernels/5.15" remote="aosp" revision="main" clone-depth="1" />
