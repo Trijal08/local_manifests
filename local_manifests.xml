@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<!-- Removed Projects -->
+<remove-project path="hardware/qcom-caf/msm8953/display" />
+<remove-project path="hardware/qcom-caf/sm8150/display" />
+<remove-project path="hardware/qcom-caf/sm8350/display" />
+<remove-project path="hardware/qcom-caf/sm8450/display" />
+
 <!-- crDroid and LineageOS Pixel Device Trees -->
 <!-- project name="Trijal08/android_device_google_bonito-new" path="device/google/bonito" remote="github" revision="lineage-22.1" / -->
 <project name="Trijal08/android_device_google_bonito" path="device/google/bonito" remote="github" revision="Mist_OS-15.1" />
@@ -9,6 +15,12 @@
 <!-- LineageOS Pixel Vendor Trees -->
 <project name="TheMuppets/proprietary_vendor_google_sargo" path="vendor/google/sargo" remote="github" revision="lineage-22.1" clone-depth="1" />
 <project name="TheMuppets/proprietary_vendor_google_bonito" path="vendor/google/bonito" remote="github" revision="lineage-22.1" clone-depth="1" />
+
+<!-- Evolution X QCOM-CAF Hardware trees -->
+<project path="hardware/qcom-caf/msm8953/display" name="hardware_qcom_display" groups="qcom" remote="evo" revision="lineage-22.1-caf-msm8953" />
+<project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" groups="qcom" remote="evo" revision="lineage-22.1-caf-sm8150" />
+<project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom_display" groups="qcom" remote="evo" revision="lineage-22.1-caf-sm8350" />
+<project path="hardware/qcom-caf/sm8450/display" name="hardware_qcom_display" groups="qcom" remote="evo" revision="lineage-22.1-caf-sm8450" />
 
 <!-- Kernel source -->
 <project name="Evolution-X-Devices/kernel_google_b4s4" path="kernel/google/b4s4" remote="github" revision="vic" clone-depth="1" />
