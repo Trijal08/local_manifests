@@ -16,8 +16,8 @@
 <project name="yaap/device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" remote="github" revision="fifteen" />
 
 <!-- LineageOS OnePlus Vendor Trees -->
-<project name="OnePlus-SM8650-Dev/vendor_oneplus_waffle" path="vendor/oneplus/waffle" remote="github" revision="15" clone-depth="1" />
-<project name="OnePlus-SM8650-Dev/vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" remote="github" revision="15" clone-depth="1" />
+<project name="yaap/proprietary_vendor_oneplus_waffle" path="vendor/oneplus/waffle" remote="github" revision="fifteen" clone-depth="1" />
+<project name="yaap/proprietary_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" remote="github" revision="fifteen" clone-depth="1" />
 
 <!-- Device -->
 <project path="device/qcom/qssi" name="AOSPA/android_device_qcom_qssi" remote="github" revision="vauxite" />
