@@ -15,7 +15,7 @@
 <project name="OnePlus-SM8650-Dev/vendor_oneplus_waffle" path="vendor/oneplus/waffle" remote="github" revision="15" clone-depth="1" />
 <project name="OnePlus-SM8650-Dev/vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" remote="github" revision="15" clone-depth="1" />
 
-<!-- LineageOS OnePlus Hardware Tree -->
+<!-- YAAP OnePlus Hardware Tree -->
 <project name="yaap/hardware_oplus" path="hardware/oplus" remote="github" revision="fifteen" />
 <project name="yaap/hardware_qcom-caf_sm8650_media" path="hardware/qcom-caf/sm8650/media" remote="github" revision="fifteen" />
 <project name="yaap/hardware_qcom-caf_sm8650_display" path="hardware/qcom-caf/sm8650/display" remote="github" revision="fifteen" />
