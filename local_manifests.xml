@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote  name="clo"
+         fetch="https://git.codelinaro.org/clo/"
+         revision="refs/tags/LA.QSSI.15.0.r1-10300-qssi.0" />
+
+
 <!-- YAAP OnePlus Device Trees -->
 <project name="yaap/device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="fifteen" />
 <project name="yaap/device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" remote="github" revision="fifteen" />
@@ -9,10 +14,22 @@
 <project name="OnePlus-SM8650-Dev/vendor_oneplus_waffle" path="vendor/oneplus/waffle" remote="github" revision="15" clone-depth="1" />
 <project name="OnePlus-SM8650-Dev/vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" remote="github" revision="15" clone-depth="1" />
 
+<!-- Device -->
+<project path="device/qcom/qssi" name="AOSPA/android_device_qcom_qssi" remote="github" revision="vauxite" />
+
+<!-- Qcom Commonsys -->
+<project path="vendor/qcom/opensource/commonsys/dpm" name="la/platform/vendor/qcom-opensource/dpm-commonsys" remote="clo" />
+
 <!-- YAAP OnePlus Hardware Tree -->
 <project name="yaap/hardware_oplus" path="hardware/oplus" remote="github" revision="fifteen" />
-<project name="yaap/hardware_qcom-caf_sm8650_media" path="hardware/qcom-caf/sm8650/media" remote="github" revision="fifteen" />
-<project name="yaap/hardware_qcom-caf_sm8650_display" path="hardware/qcom-caf/sm8650/display" remote="github" revision="fifteen" />
+<project name="yaap/device_qcom_sepolicy_vndr_sm8650" path="device/qcom/sepolicy_vndr/sm8650" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/sm8650/audio/agm" name="yaap/vendor_qcom_opensource_agm-sm8650" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/sm8650/audio/pal" name="yaap/vendor_qcom_opensource_arpal-lx-sm8650" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="yaap/hardware_qcom_audio-ar-sm8650" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/sm8650/dataipa" name="yaap/vendor_qcom_opensource_dataipa-sm8650" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="yaap/vendor_qcom_opensource_data-ipa-cfg-mgr-sm8650" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/sm8650/display" name="yaap/hardware_qcom-caf_sm8650_display" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/sm8650/media" name="yaap/hardware_qcom-caf_sm8650_media" remote="github" revision="fifteen" />
 
 <!-- Prebuilt Kernel -->
 <project name="yaap/device_oneplus_waffle-kernel" path="device/oneplus/waffle-kernel" remote="github" revision="fifteen" clone-depth="1" />
