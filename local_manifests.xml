@@ -22,7 +22,7 @@
 <project path="hardware/qcom-caf/sm8450/display" name="Evolution-X/hardware_qcom_display" groups="qcom" remote="github" revision="lineage-22.1-caf-sm8450" />
 
 <!-- Prebuilt Kernel -->
-<project name="yaap/device_oneplus_waffle-kernel" path="device/oneplus/waffle-kernel" remote="github" revision="vic" clone-depth="1" />
+<project name="yaap/device_oneplus_waffle-kernel" path="device/oneplus/waffle-kernel" remote="github" revision="fifteen" clone-depth="1" />
 
 <!-- Extra trees -->
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
