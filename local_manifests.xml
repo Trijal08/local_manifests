@@ -31,6 +31,9 @@
 <project path="hardware/qcom-caf/sm8650/display" name="yaap/hardware_qcom-caf_sm8650_display" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/sm8650/media" name="yaap/hardware_qcom-caf_sm8650_media" remote="github" revision="fifteen" />
 
+<!-- Vendor Opensource -->
+<project path="vendor/qcom/opensource/core-utils" name="yaap/vendor_qcom-opensource_core-utils" remote="github" revision="fifteen" />
+
 <!-- Prebuilt Kernel -->
 <project name="yaap/device_oneplus_waffle-kernel" path="device/oneplus/waffle-kernel" remote="github" revision="fifteen" clone-depth="1" />
 
