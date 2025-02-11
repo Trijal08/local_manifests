@@ -7,14 +7,13 @@
 <remove-project path="hardware/qcom-caf/sm8350/display" />
 <remove-project path="hardware/qcom-caf/sm8450/display" />
 
-<!-- crDroid and LineageOS Pixel Device Trees -->
-<!-- project name="Trijal08/android_device_google_bonito-new" path="device/google/bonito" remote="github" revision="lineage-22.1" / -->
-<project name="Trijal08/android_device_google_bonito" path="device/google/bonito" remote="github" revision="Mist_OS-15.1" />
-<project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-22.1" />
+<!-- YAAP OnePlus Device Trees -->
+<project name="yaap/device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="fifteen" />
+<project name="yaap/device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" remote="github" revision="fifteen" />
 
-<!-- LineageOS Pixel Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_google_sargo" path="vendor/google/sargo" remote="github" revision="lineage-22.1" clone-depth="1" />
-<project name="TheMuppets/proprietary_vendor_google_bonito" path="vendor/google/bonito" remote="github" revision="lineage-22.1" clone-depth="1" />
+<!-- LineageOS OnePlus Vendor Trees -->
+<project name="OnePlus-SM8650-Dev/vendor_oneplus_waffle" path="vendor/oneplus/waffle" remote="github" revision="15" clone-depth="1" />
+<project name="OnePlus-SM8650-Dev/vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" remote="github" revision="15" clone-depth="1" />
 
 <!-- Evolution X QCOM-CAF Hardware trees -->
 <project path="hardware/qcom-caf/msm8953/display" name="Evolution-X/hardware_qcom_display" groups="qcom" remote="github" revision="lineage-22.1-caf-msm8953" />
@@ -22,13 +21,11 @@
 <project path="hardware/qcom-caf/sm8350/display" name="Evolution-X/hardware_qcom_display" groups="qcom" remote="github" revision="lineage-22.1-caf-sm8350" />
 <project path="hardware/qcom-caf/sm8450/display" name="Evolution-X/hardware_qcom_display" groups="qcom" remote="github" revision="lineage-22.1-caf-sm8450" />
 
-<!-- Kernel source -->
-<project name="Evolution-X-Devices/kernel_google_b4s4" path="kernel/google/b4s4" remote="github" revision="vic" clone-depth="1" />
+<!-- Prebuilt Kernel -->
+<project name="yaap/device_oneplus_waffle-kernel" path="device/oneplus/waffle-kernel" remote="github" revision="vic" clone-depth="1" />
 
 <!-- Extra trees -->
-<project name="Oneloutre/vendor_Camera" path="vendor/Camera/b4s4" remote="github" revision="b4s4" />
-<project name="LineageOS/android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="github" revision="lineage-22.1" />
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
-<!-- project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" / -->
+<project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
 
 </manifest>
