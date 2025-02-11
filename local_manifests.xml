@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Removed Projects -->
-<remove-project path="hardware/qcom-caf/msm8953/display" />
-<remove-project path="hardware/qcom-caf/sm8150/display" />
-<remove-project path="hardware/qcom-caf/sm8350/display" />
-<remove-project path="hardware/qcom-caf/sm8450/display" />
-
 <!-- YAAP OnePlus Device Trees -->
 <project name="yaap/device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="fifteen" />
 <project name="yaap/device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" remote="github" revision="fifteen" />
@@ -19,12 +13,6 @@
 <project name="yaap/hardware_oplus" path="hardware/oplus" remote="github" revision="fifteen" />
 <project name="yaap/hardware_qcom-caf_sm8650_media" path="hardware/qcom-caf/sm8650/media" remote="github" revision="fifteen" />
 <project name="yaap/hardware_qcom-caf_sm8650_display" path="hardware/qcom-caf/sm8650/display" remote="github" revision="fifteen" />
-
-<!-- Evolution X QCOM-CAF Hardware trees -->
-<project path="hardware/qcom-caf/msm8953/display" name="Evolution-X/hardware_qcom_display" groups="qcom" remote="github" revision="lineage-22.1-caf-msm8953" />
-<project path="hardware/qcom-caf/sm8150/display" name="Evolution-X/hardware_qcom_display" groups="qcom" remote="github" revision="lineage-22.1-caf-sm8150" />
-<project path="hardware/qcom-caf/sm8350/display" name="Evolution-X/hardware_qcom_display" groups="qcom" remote="github" revision="lineage-22.1-caf-sm8350" />
-<project path="hardware/qcom-caf/sm8450/display" name="Evolution-X/hardware_qcom_display" groups="qcom" remote="github" revision="lineage-22.1-caf-sm8450" />
 
 <!-- Prebuilt Kernel -->
 <project name="yaap/device_oneplus_waffle-kernel" path="device/oneplus/waffle-kernel" remote="github" revision="fifteen" clone-depth="1" />
