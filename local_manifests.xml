@@ -5,6 +5,12 @@
          fetch="https://git.codelinaro.org/clo/"
          revision="refs/tags/LA.QSSI.15.0.r1-10300-qssi.0" />
 
+<!-- Removed Projects -->
+<remove-project path="hardware/qcom-caf/msm8953/display" />
+<remove-project path="hardware/qcom-caf/sm8150/display" />
+<remove-project path="hardware/qcom-caf/sm8350/display" />
+<remove-project path="hardware/qcom-caf/sm8450/display" />
+
 <!-- YAAP OnePlus Device Trees -->
 <project name="yaap/device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="fifteen" />
 <project name="yaap/device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" remote="github" revision="fifteen" />
