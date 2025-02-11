@@ -17,6 +17,8 @@
 
 <!-- LineageOS OnePlus Hardware Tree -->
 <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-22.1" />
+<project name="yaap/hardware_qcom-caf_sm8650_media" path="hardware/qcom-caf/sm8650/media" remote="github" revision="fifteen" />
+<project name="yaap/hardware_qcom-caf_sm8650_display" path="hardware/qcom-caf/sm8650/display" remote="github" revision="fifteen" />
 
 <!-- Evolution X QCOM-CAF Hardware trees -->
 <project path="hardware/qcom-caf/msm8953/display" name="Evolution-X/hardware_qcom_display" groups="qcom" remote="github" revision="lineage-22.1-caf-msm8953" />
