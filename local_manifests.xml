@@ -15,6 +15,9 @@
 <project name="OnePlus-SM8650-Dev/vendor_oneplus_waffle" path="vendor/oneplus/waffle" remote="github" revision="15" clone-depth="1" />
 <project name="OnePlus-SM8650-Dev/vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" remote="github" revision="15" clone-depth="1" />
 
+<!-- LineageOS OnePlus Hardware Tree -->
+<project name="android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-22.1" />
+
 <!-- Evolution X QCOM-CAF Hardware trees -->
 <project path="hardware/qcom-caf/msm8953/display" name="Evolution-X/hardware_qcom_display" groups="qcom" remote="github" revision="lineage-22.1-caf-msm8953" />
 <project path="hardware/qcom-caf/sm8150/display" name="Evolution-X/hardware_qcom_display" groups="qcom" remote="github" revision="lineage-22.1-caf-sm8150" />
