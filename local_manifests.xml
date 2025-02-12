@@ -10,6 +10,7 @@
 <remove-project path="hardware/qcom-caf/sm8150/display" />
 <remove-project path="hardware/qcom-caf/sm8350/display" />
 <remove-project path="hardware/qcom-caf/sm8450/display" />
+<remove-project path="hardware/qcom-caf/sm8150/media" />
 
 <!-- YAAP OnePlus Device Trees -->
 <project name="yaap/device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="fifteen" />
