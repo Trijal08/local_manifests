@@ -37,7 +37,7 @@
 <project path="hardware/qcom-caf/sm8650/media" name="yaap/hardware_qcom-caf_sm8650_media" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/wlan" name="yaap/hardware_qcom-caf_wlan" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/thermal" name="yaap/hardware_qcom-caf_thermal" remote="github" revision="fifteen" />
-<project path="hardware/qcom-caf/common" remote="github" revision="fifteen" name="yaap/hardware_qcom-caf_common" />
+<project path="hardware/qcom-caf/common" remote="github" revision="fifteen" name="yaap/hardware_qcom-caf_common" >
          <linkfile src="Android.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
          <linkfile src="Android.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
 </project>
