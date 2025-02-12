@@ -5,6 +5,11 @@
          fetch="https://git.codelinaro.org/clo/"
          revision="refs/tags/LA.QSSI.15.0.r1-10300-qssi.0" />
 
+<!-- Removed Projects -->
+<remove-project path="hardware/qcom-caf/wlan" />
+<remove-project path="hardware/qcom-caf/thermal" />
+<remove-project path="hardware/qcom-caf/common" />
+
 <!-- YAAP OnePlus Device Trees -->
 <project name="yaap/device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="fifteen" />
 <project name="yaap/device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" remote="github" revision="fifteen" />
@@ -33,6 +38,9 @@
 <project path="hardware/qcom-caf/wlan" name="yaap/hardware_qcom-caf_wlan" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/thermal" name="yaap/hardware_qcom-caf_thermal" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/common" remote="github" revision="fifteen" name="yaap/hardware_qcom-caf_common" />
+         <linkfile src="Android.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
+         <linkfile src="Android.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
+</project>
 <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="yaap/vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="fifteen" />
 <project path="vendor/qcom/opensource/core-utils" name="yaap/vendor_qcom_opensource_core-utils" remote="github" revision="fifteen" />
 <project path="vendor/qcom/opensource/interfaces" name="yaap/vendor_qcom_opensource_interfaces" remote="github" revision="fifteen" />
