@@ -6,6 +6,11 @@
          revision="refs/tags/LA.QSSI.15.0.r1-10300-qssi.0" />
 
 <!-- Removed Projects -->
+<remove-project path="hardware/qcom-caf/msm8953/display" />
+<remove-project path="hardware/qcom-caf/sm8150/display" />
+<remove-project path="hardware/qcom-caf/sm8350/display" />
+<remove-project path="hardware/qcom-caf/sm8450/display" />
+<remove-project path="hardware/qcom-caf/sm8150/media" />
 <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" />
 <remove-project path="vendor/qcom/opensource/interfaces" />
 <remove-project path="vendor/qcom/opensource/usb" />
