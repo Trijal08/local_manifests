@@ -7,6 +7,8 @@
 
 <!-- Removed Projects -->
 <remove-project path="hardware/qcom-caf/msm8953/display" />
+<remove-project path="hardware/qcom-caf/msm8996/display" />
+<remove-project path="hardware/qcom-caf/msm8998/display" />
 <remove-project path="hardware/qcom-caf/sdm845/display" />
 <remove-project path="hardware/qcom-caf/sm8150/display" />
 <remove-project path="hardware/qcom-caf/sm8250/display" />
