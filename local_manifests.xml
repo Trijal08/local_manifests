@@ -6,6 +6,7 @@
          revision="refs/tags/LA.QSSI.15.0.r1-10300-qssi.0" />
 
 <!-- Removed Projects -->
+<remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" />
 <remove-project path="hardware/qcom-caf/wlan" />
 <remove-project path="hardware/qcom-caf/thermal" />
 <remove-project path="hardware/qcom-caf/common" />
