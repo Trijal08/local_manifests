@@ -30,6 +30,14 @@
 <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="yaap/vendor_qcom_opensource_data-ipa-cfg-mgr-sm8650" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/sm8650/display" name="yaap/hardware_qcom-caf_sm8650_display" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/sm8650/media" name="yaap/hardware_qcom-caf_sm8650_media" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/wlan" name="yaap/hardware_qcom-caf_wlan" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/thermal" name="yaap/hardware_qcom-caf_thermal" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/common" remote="github" revision="fifteen" name="yaap/hardware_qcom-caf_common" >
+<project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="yaap/vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="fifteen" />
+<project path="vendor/qcom/opensource/core-utils" name="yaap/vendor_qcom_opensource_core-utils" remote="github" revision="fifteen" />
+<project path="vendor/qcom/opensource/interfaces" name="yaap/vendor_qcom_opensource_interfaces" remote="github" revision="fifteen" />
+<project path="vendor/qcom/opensource/usb" name="yaap/vendor_qcom_opensource_usb" remote="github" revision="fifteen" />
+<project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="fifteen" />
 
 <!-- Vendor Opensource -->
 <project path="vendor/qcom/opensource/core-utils" name="yaap/vendor_qcom_opensource_core-utils" remote="github" revision="fifteen" />
