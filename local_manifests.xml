@@ -9,8 +9,12 @@
 <remove-project path="hardware/qcom-caf/msm8953/display" />
 <remove-project path="hardware/qcom-caf/msm8996/display" />
 <remove-project path="hardware/qcom-caf/msm8998/display" />
+<remove-project path="hardware/qcom-caf/msm8953/media" />
+<remove-project path="hardware/qcom-caf/msm8996/media" />
+<remove-project path="hardware/qcom-caf/msm8998/media" />
 <remove-project path="hardware/qcom-caf/sdm845/display" />
 <remove-project path="hardware/qcom-caf/sm8150/display" />
+<remove-project path="hardware/qcom-caf/sm8150/media" />
 <remove-project path="hardware/qcom-caf/sm8250/display" />
 <remove-project path="hardware/qcom-caf/sm8350/display" />
 <remove-project path="hardware/qcom-caf/sm8450/display" />
