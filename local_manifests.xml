@@ -8,6 +8,9 @@
 <remote  name="yaap-gitlab"
          fetch="https://gitlab.com/yaosp/" />
 
+<remote  name="chandu-gitlab"
+         fetch="https://gitlab.com/chandu078/" />
+
 <!-- Removed Projects -->
 <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" />
 <remove-project path="vendor/qcom/opensource/interfaces" />
@@ -82,7 +85,7 @@
 <project name="yaap/device_oneplus_waffle-kernel" path="device/oneplus/waffle-kernel" remote="github" revision="fifteen" clone-depth="1" />
 
 <!-- Extra trees -->
-<project name="absoluten00b/vendor_oplus_camera" path="vendor/oplus/camera" remote="github" revision="lineage-21" />
+<project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" remote="github" revision="chandu-gitlab" />
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
 
