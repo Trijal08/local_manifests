@@ -80,6 +80,7 @@
 
 <!-- Extra trees -->
 <project name="yaap/packages_apps_TouchGestures" path="packages/apps/TouchGestures" remote="github" revision="fifteen" />
+<project name="uwu-gl/vendor_oneplus_camera" path="vendor/oneplus/camera" remote="github" revision="fourteen" />
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
 
