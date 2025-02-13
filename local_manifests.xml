@@ -16,9 +16,9 @@
 <remove-project path="hardware/qcom-caf/thermal" />
 <remove-project path="hardware/qcom-caf/common" />
 
-<!-- YAAP OnePlus Device Trees -->
-<project name="yaap/device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="fifteen" />
-<project name="yaap/device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" remote="github" revision="fifteen" />
+<!-- LineageOS OnePlus Device Trees -->
+<project name="Trijal08/android_device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="Mist_OS-15.1" />
+<project name="Trijal08/android_device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" remote="github" revision="lineage-22.1" />
 
 <!-- YAAP OnePlus Vendor Trees -->
 <project name="yaap/proprietary_vendor_oneplus_waffle" path="vendor/oneplus/waffle" remote="github" revision="fifteen" clone-depth="1" />
@@ -29,7 +29,7 @@
 <project path="vendor/qcom/opensource/commonsys/dpm" name="la/platform/vendor/qcom-opensource/dpm-commonsys" remote="clo" />
 
 <!-- YAAP OnePlus Hardware Tree -->
-<project name="yaap/hardware_oplus" path="hardware/oplus" remote="github" revision="fifteen" />
+<project name="Trijal08/android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-22.1-sm8650" />
 <project path="device/qcom/common" name="yaap/device_qcom_common" remote="github" revision="fifteen" />
 <project name="yaap/device_qcom_sepolicy_vndr_sm8650" path="device/qcom/sepolicy_vndr/sm8650" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/sm8650/audio/agm" name="yaap/vendor_qcom_opensource_agm-sm8650" remote="github" revision="fifteen" />
