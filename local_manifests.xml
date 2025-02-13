@@ -5,6 +5,9 @@
          fetch="https://git.codelinaro.org/clo/"
          revision="refs/tags/LA.QSSI.15.0.r1-10300-qssi.0" />
 
+<remote  name="yaap-gitlab"
+         fetch="https://gitlab.com/yaosp/" />
+
 <!-- Removed Projects -->
 <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" />
 <remove-project path="vendor/qcom/opensource/interfaces" />
@@ -73,7 +76,7 @@
 <project path="vendor/qcom/opensource/core-utils" name="yaap/vendor_qcom_opensource_core-utils" remote="github" revision="fifteen" />
 <project path="vendor/qcom/opensource/interfaces" name="yaap/vendor_qcom_opensource_interfaces" remote="github" revision="fifteen" />
 <project path="vendor/qcom/opensource/usb" name="yaap/vendor_qcom_opensource_usb" remote="github" revision="fifteen" />
-<project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="crdroid-gitlab" revision="fifteen" />
+<project path="vendor/qcom/common" name="vendor_qcom_common" remote="yaap-gitlab" revision="fifteen" />
 
 <!-- Prebuilt Kernel -->
 <project name="yaap/device_oneplus_waffle-kernel" path="device/oneplus/waffle-kernel" remote="github" revision="fifteen" clone-depth="1" />
