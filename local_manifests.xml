@@ -21,10 +21,8 @@
 <project name="yaap/proprietary_vendor_oneplus_waffle" path="vendor/oneplus/waffle" remote="github" revision="fifteen" clone-depth="1" />
 <project name="yaap/proprietary_vendor_oneplus_sm8650-common" path="vendor/oneplus/sm8650-common" remote="github" revision="fifteen" clone-depth="1" />
 
-<!-- Device -->
+<!-- CLO/AOSPA Stuff -->
 <project path="device/qcom/qssi" name="AOSPA/android_device_qcom_qssi" remote="github" revision="vauxite" />
-
-<!-- Qcom Commonsys -->
 <project path="vendor/qcom/opensource/commonsys/dpm" name="la/platform/vendor/qcom-opensource/dpm-commonsys" remote="clo" />
 
 <!-- YAAP OnePlus Hardware Tree -->
