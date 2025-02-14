@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<remote  name="gitlab"
+         fetch="https://gitlab.com/" />
+
 <!-- crDroid and LineageOS Pixel Device Trees -->
 <project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="Mist_OS-15.1" />
 <project name="RisingTechOSS-devices/device_google_gs-common" path="device/google/gs-common" remote="github" revision="fifteen" />
