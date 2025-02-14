@@ -16,7 +16,7 @@
 <project name="device/google/shusky-kernels/5.15" path="device/google/shusky-kernels/5.15" remote="aosp" clone-depth="1" />
 
 <!-- Extra trees -->
-<project name="proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="crdroid-gitlab" revision="15.0" />
+<project name="crdroidandroid/proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="gitlab" revision="15.0" />
 <project name="crdroidandroid/android_packages_apps_PixelParts" path="packages/apps/PixelParts" remote="github" revision="15.0" />
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
 
