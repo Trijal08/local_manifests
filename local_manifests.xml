@@ -15,6 +15,7 @@
 <remove-project path="hardware/qcom-caf/wlan" />
 <remove-project path="hardware/qcom-caf/thermal" />
 <remove-project path="hardware/qcom-caf/common" />
+<remove-project path="vendor/bcr" />
 
 <!-- LineageOS OnePlus Device Trees -->
 <project name="Trijal08/android_device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="Mist_OS-15.1" />
