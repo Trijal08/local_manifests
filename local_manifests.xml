@@ -82,7 +82,6 @@
 <project name="yaap/device_oneplus_waffle-kernel" path="device/oneplus/waffle-kernel" remote="github" revision="fifteen" clone-depth="1" />
 
 <!-- Extra trees -->
-<project name="ProjectInfinity-X/packages_apps_TouchGestures" path="packages/apps/TouchGestures" remote="github" revision="QPR3" />
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
 
