@@ -29,7 +29,8 @@
 <project path="vendor/qcom/opensource/commonsys/dpm" name="la/platform/vendor/qcom-opensource/dpm-commonsys" remote="clo" />
 
 <!-- LineageOS and YAAP OnePlus Hardware Trees -->
-<project name="Trijal08/android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-22.1-sm8650" />
+<!-- project name="Trijal08/android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-22.1-sm8650" / -->
+<project name="Trijal08/android_hardware_oplus-chandu" path="hardware/oplus" remote="github" revision="lineage-22.1" />
 <project path="device/qcom/common" name="yaap/device_qcom_common" remote="github" revision="fifteen" />
 <project name="yaap/device_qcom_sepolicy_vndr_sm8650" path="device/qcom/sepolicy_vndr/sm8650" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/sm8650/audio/agm" name="yaap/vendor_qcom_opensource_agm-sm8650" remote="github" revision="fifteen" />
