@@ -79,8 +79,8 @@
 <project path="vendor/qcom/common" name="vendor_qcom_common" remote="yaap-gitlab" revision="fifteen" />
 
 <!-- Prebuilt Kernel -->
-<!-- project name="yaap/device_oneplus_waffle-kernel" path="device/oneplus/waffle-kernel" remote="github" revision="fifteen" clone-depth="1" / -->
-<project name="TheXPerienceProject/android_device_oneplus_waffle-kernel" path="device/oneplus/waffle-kernel" remote="github" revision="xpe-19.0-qpr1" clone-depth="1" />
+<project name="yaap/device_oneplus_waffle-kernel" path="device/oneplus/waffle-kernel" remote="github" revision="fifteen" clone-depth="1" />
+<!-- project name="TheXPerienceProject/android_device_oneplus_waffle-kernel" path="device/oneplus/waffle-kernel" remote="github" revision="xpe-19.0-qpr1" clone-depth="1" / -->
 
 <!-- Extra trees -->
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
