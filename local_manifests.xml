@@ -12,7 +12,7 @@
 <!-- remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" / -->
 <!-- remove-project path="vendor/qcom/opensource/interfaces" / -->
 <!-- remove-project path="vendor/qcom/opensource/usb" / -->
-<remove-project path="hardware/qcom-caf/wlan" />
+<!-- remove-project path="hardware/qcom-caf/wlan" / -->
 <remove-project path="hardware/qcom-caf/thermal" />
 <remove-project path="hardware/qcom-caf/common" />
 
