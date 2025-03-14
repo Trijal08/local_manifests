@@ -12,6 +12,7 @@
 <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" />
 <remove-project path="vendor/qcom/opensource/interfaces" />
 <remove-project path="vendor/qcom/opensource/usb" />
+<remove-project path="vendor/qcom/opensource/vibrator" />
 <remove-project path="hardware/qcom-caf/wlan" />
 <remove-project path="hardware/qcom-caf/thermal" />
 <remove-project path="hardware/qcom-caf/common" />
@@ -76,6 +77,7 @@
 <project path="vendor/qcom/opensource/core-utils" name="yaap/vendor_qcom_opensource_core-utils" remote="github" revision="fifteen" />
 <project path="vendor/qcom/opensource/interfaces" name="yaap/vendor_qcom_opensource_interfaces" remote="github" revision="fifteen" />
 <project path="vendor/qcom/opensource/usb" name="yaap/vendor_qcom_opensource_usb" remote="github" revision="fifteen" />
+<project path="vendor/qcom/opensource/vibrator" name="yaap/vendor_qcom_opensource_vibrator" remote="github" revision="fifteen" />
 <project path="vendor/qcom/common" name="vendor_qcom_common" remote="yaap-gitlab" revision="fifteen" />
 
 <!-- Prebuilt Kernel -->
