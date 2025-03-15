@@ -18,7 +18,7 @@
 <remove-project path="hardware/qcom-caf/common" />
 
 <!-- LineageOS OnePlus Device Trees -->
-<project name="Trijal08/android_device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="Mist_OS-15.1" />
+<project name="Trijal08/android_device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="crDroid-15.1" />
 <project name="Trijal08/android_device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" remote="github" revision="lineage-22.1" />
 
 <!-- YAAP OnePlus Vendor Trees -->
