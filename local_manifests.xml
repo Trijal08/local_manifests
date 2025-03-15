@@ -8,9 +8,6 @@
 <remote  name="yaap-gitlab"
          fetch="https://gitlab.com/yaosp/" />
 
-<remote  name="cr-gitlab"
-         fetch="https://gitlab.com/crdroidandroid/" />
-
 <!-- Removed Projects -->
 <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" />
 <remove-project path="vendor/qcom/opensource/interfaces" />
