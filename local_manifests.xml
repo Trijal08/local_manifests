@@ -8,6 +8,9 @@
 <remote  name="yaap-gitlab"
          fetch="https://gitlab.com/yaosp/" />
 
+<remote  name="cr-gitlab"
+         fetch="https://gitlab.com/crdroidandroid/" />
+
 <!-- Removed Projects -->
 <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" />
 <remove-project path="vendor/qcom/opensource/interfaces" />
@@ -87,5 +90,6 @@
 <!-- Extra trees -->
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
+<project name="proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="cr-gitlab" revision="15.0" />
 
 </manifest>
