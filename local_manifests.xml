@@ -38,7 +38,8 @@
 <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="yaap/hardware_qcom_audio-ar-sm8650" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/sm8650/dataipa" name="yaap/vendor_qcom_opensource_dataipa-sm8650" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="yaap/vendor_qcom_opensource_data-ipa-cfg-mgr-sm8650" remote="github" revision="fifteen" />
-<project path="hardware/qcom-caf/sm8650/display" name="yaap/hardware_qcom-caf_sm8650_display" remote="github" revision="fifteen" />
+<!-- project path="hardware/qcom-caf/sm8650/display" name="yaap/hardware_qcom-caf_sm8650_display" remote="github" revision="fifteen" / -->
+<project path="hardware/qcom-caf/sm8650/display" name="OnePlus-12-Development/android_hardware_qcom_display" remote="github" revision="lineage-22.1" />
 <project path="hardware/qcom-caf/sm8650/media" name="yaap/hardware_qcom-caf_sm8650_media" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/wlan" name="yaap/hardware_qcom-caf_wlan" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/thermal" name="yaap/hardware_qcom-caf_thermal" remote="github" revision="fifteen" />
