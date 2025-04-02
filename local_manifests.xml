@@ -18,10 +18,13 @@
 <project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="lineage-22.2" clone-depth="1" />
 
 <!-- Prebuilt Kernel -->
-<project name="device/google/shusky-kernels/5.15" path="device/google/shusky-kernels/5.15" remote="aosp" clone-depth="1" />
+<project name="device/google/shusky-kernels/5.15" path="device/google/shusky-kernels/5.15" remote="aosp" clone-depth="1">
 
 <!-- Extra trees -->
 <project name="proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="crdroid-gitlab" revision="15.0" />
+<project name="proprietary_vendor_google_camera" path="vendor/google/camera" remote="crdroid-gitlab" revision="15.0">
+         <linkfile src="config.mk" dest="vendor/google/camera/camera.mk" />
+</project>
 <project name="crdroidandroid/android_packages_apps_PixelParts" path="packages/apps/PixelParts" remote="github" revision="15.0" />
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
