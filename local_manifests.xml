@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- crDroid and LineageOS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_shusky" path="device/google/shusky" remote="github" revision="Mist_OS-15.1" />
-<project name="MistOS-Devices/device_google_gs-common" path="device/google/gs-common" remote="github" revision="MistOS-15" />
-<!-- project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-22.1" / -->
-<project name="Jrcable1/android_device_google_gs101" path="device/google/gs101" remote="github" revision="fifteen" />
-<project name="Trijal08/android_device_google_zuma" path="device/google/zuma" remote="github" revision="15.1" />
+<remote  name="crdroid-gitlab"
+         fetch="https://gitlab.com/crdroidandroid/"
+         sync-c="true"
+         sync-j="4"
+         revision="refs/heads/15.0" />
 
-<!-- RisingOS Pixel Vendor Trees -->
-<project name="austineyoung2000/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="fifteen" clone-depth="1" />
-<project name="austineyoung2000/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="fifteen" clone-depth="1" />
+<!-- crDroid and LineageOS Pixel Device Trees -->
+<project name="Trijal08/android_device_google_shusky-new" path="device/google/shusky" remote="github" revision="HorizonDroid-15.2" />
+<project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-22.2" />
+<project name="LineageOS/android_device_google_gs101" path="device/google/gs101" remote="github" revision="lineage-22.2" />
+<project name="Trijal08/android_device_google_zuma" path="device/google/zuma" remote="github" revision="15.2" />
+
+<!-- LineageOS Pixel Vendor Trees -->
+<project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="lineage-22.2" clone-depth="1" />
+<project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="lineage-22.2" clone-depth="1" />
 
 <!-- Prebuilt Kernel -->
 <project name="device/google/shusky-kernels/5.15" path="device/google/shusky-kernels/5.15" remote="aosp" clone-depth="1" />
