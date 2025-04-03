@@ -9,6 +9,13 @@
          fetch="https://gitlab.com/crdroidandroid/"
          revision="refs/heads/15.0" />
 
+<!-- Remove Projects -->
+<remove-project path="hardware/google/pixel" />
+<remove-project path="hardware/google/pixel-sepolicy" />
+<remove-project path="hardware/google/gchips" />
+<remove-project path="hardware/google/graphics/common" />
+<remove-project path="hardware/google/camera" />
+
 <!-- crDroid and LineageOS Pixel Device Trees -->
 <project name="Trijal08/android_device_google_shusky-new" path="device/google/shusky" remote="github" revision="HorizonDroid-15.2" />
 <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="github" revision="lineage-22.2" />
@@ -18,6 +25,13 @@
 <!-- LineageOS Pixel Vendor Trees -->
 <project name="TheMuppets/proprietary_vendor_google_husky" path="vendor/google/husky" remote="github" revision="lineage-22.2" clone-depth="1" />
 <project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="lineage-22.2" clone-depth="1" />
+
+<!-- LineageOS Pixel Hardware Trees -->
+<project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="lineage-22.2" />
+<project name="LineageOS/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="github" revision="lineage-22.2" />
+<project name="LineageOS/android_hardware_google_gchips" path="hardware/google/gchips" remote="github" revision="lineage-22.2" />
+<project name="LineageOS/android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="github" revision="lineage-22.2" />
+<project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-22.2" />
 
 <!-- Prebuilt Kernel -->
 <project name="device/google/shusky-kernels/6.1" path="device/google/shusky-kernels/6.1" remote="aosp" clone-depth="1" />
