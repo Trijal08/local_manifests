@@ -20,7 +20,7 @@
 <project name="TheMuppets/proprietary_vendor_google_shiba" path="vendor/google/shiba" remote="github" revision="lineage-22.2" clone-depth="1" />
 
 <!-- Prebuilt Kernel -->
-<project name="device/google/shusky-kernels/5.15" path="device/google/shusky-kernels/5.15" remote="aosp" clone-depth="1" />
+<project name="device/google/shusky-kernels/6.1" path="device/google/shusky-kernels/6.1" remote="aosp" clone-depth="1" />
 
 <!-- Extra trees -->
 <project name="proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="crdroid-gitlab" revision="15.0" />
