@@ -26,6 +26,7 @@
 <remove-project path="hardware/qcom-caf/sm8650/audio/primary-hal" />
 <remove-project path="hardware/qcom-caf/sm8650/dataipa" />
 <remove-project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" />
+<remove-project path="hardware/qcom-caf/sm8650/display" />
 <remove-project path="device/qcom/sepolicy_vndr/sm8650" />
 
 <!-- LineageOS OnePlus Device Trees -->
