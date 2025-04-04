@@ -22,6 +22,7 @@
 <remove-project path="hardware/qcom-caf/thermal" />
 <remove-project path="hardware/qcom-caf/common" />
 <remove-project path="hardware/qcom-caf/sm8650/audio/agm" />
+<remove-project path="hardware/qcom-caf/sm8650/audio/pal" />
 <remove-project path="device/qcom/sepolicy_vndr/sm8650" />
 
 <!-- LineageOS OnePlus Device Trees -->
