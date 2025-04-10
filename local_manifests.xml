@@ -17,13 +17,13 @@
 <remove-project path="hardware/qcom-caf/wlan" />
 <remove-project path="hardware/qcom-caf/thermal" />
 <remove-project path="hardware/qcom-caf/common" />
-<!-- remove-project path="hardware/qcom-caf/sm8650/audio/agm" / -->
-<!-- remove-project path="hardware/qcom-caf/sm8650/audio/pal" / -->
-<!-- remove-project path="hardware/qcom-caf/sm8650/audio/primary-hal" / -->
-<!-- remove-project path="hardware/qcom-caf/sm8650/dataipa" / -->
-<!-- remove-project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" / -->
-<!-- remove-project path="hardware/qcom-caf/sm8650/display" / -->
-<!-- remove-project path="device/qcom/sepolicy_vndr/sm8650" / -->
+<remove-project path="hardware/qcom-caf/sm8650/audio/agm" />
+<remove-project path="hardware/qcom-caf/sm8650/audio/pal" />
+<remove-project path="hardware/qcom-caf/sm8650/audio/primary-hal" />
+<remove-project path="hardware/qcom-caf/sm8650/dataipa" />
+<remove-project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" />
+<remove-project path="hardware/qcom-caf/sm8650/display" />
+<remove-project path="device/qcom/sepolicy_vndr/sm8650" />
 
 <!-- LineageOS OnePlus Device Trees -->
 <project name="Trijal08/android_device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="crDroid-15.1" />
@@ -41,14 +41,13 @@
 <!-- LineageOS and YAAP OnePlus Hardware Trees -->
 <project name="Trijal08/android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-22.2" />
 <project path="device/qcom/common" name="yaap/device_qcom_common" remote="github" revision="fifteen" />
-<!-- project name="yaap/device_qcom_sepolicy_vndr_sm8650" path="device/qcom/sepolicy_vndr/sm8650" remote="github" revision="fifteen" / -->
-<!-- project path="hardware/qcom-caf/sm8650/audio/agm" name="yaap/vendor_qcom_opensource_agm-sm8650" remote="github" revision="fifteen" / -->
-<!-- project path="hardware/qcom-caf/sm8650/audio/pal" name="yaap/vendor_qcom_opensource_arpal-lx-sm8650" remote="github" revision="fifteen" / -->
-<!-- project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="yaap/hardware_qcom_audio-ar-sm8650" remote="github" revision="fifteen" / -->
-<!-- project path="hardware/qcom-caf/sm8650/dataipa" name="yaap/vendor_qcom_opensource_dataipa-sm8650" remote="github" revision="fifteen" / -->
-<!-- project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="yaap/vendor_qcom_opensource_data-ipa-cfg-mgr-sm8650" remote="github" revision="fifteen" / -->
-<!-- project path="hardware/qcom-caf/sm8650/display" name="yaap/hardware_qcom-caf_sm8650_display" remote="github" revision="fifteen" / -->
-<!-- project path="hardware/qcom-caf/sm8650/display" name="OnePlus-12-Development/android_hardware_qcom_display" remote="github" revision="lineage-22.0-caf-sm8650" / -->
+<project name="yaap/device_qcom_sepolicy_vndr_sm8650" path="device/qcom/sepolicy_vndr/sm8650" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/sm8650/audio/agm" name="yaap/vendor_qcom_opensource_agm-sm8650" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/sm8650/audio/pal" name="yaap/vendor_qcom_opensource_arpal-lx-sm8650" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="yaap/hardware_qcom_audio-ar-sm8650" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/sm8650/dataipa" name="yaap/vendor_qcom_opensource_dataipa-sm8650" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="yaap/vendor_qcom_opensource_data-ipa-cfg-mgr-sm8650" remote="github" revision="fifteen" />
+<project path="hardware/qcom-caf/sm8650/display" name="yaap/hardware_qcom-caf_sm8650_display" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/sm8650/media" name="yaap/hardware_qcom-caf_sm8650_media" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/wlan" name="yaap/hardware_qcom-caf_wlan" remote="github" revision="fifteen" />
 <project path="hardware/qcom-caf/thermal" name="yaap/hardware_qcom-caf_thermal" remote="github" revision="fifteen" />
