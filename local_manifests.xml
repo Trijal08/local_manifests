@@ -8,10 +8,6 @@
 <remote  name="yaap-gitlab"
          fetch="https://gitlab.com/yaosp/" />
 
-<remote  name="github"
-         fetch=".."
-         review="review.lineageos.org" />
-
 <!-- Removed Projects -->
 <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" />
 <remove-project path="vendor/qcom/opensource/interfaces" />
@@ -30,9 +26,9 @@
 <!-- remove-project path="device/qcom/sepolicy_vndr/sm8650" / -->
 
 <!-- LineageOS OnePlus Device Trees -->
-<project name="Trijal08/android_device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="Mist_OS-15.1" />
+<project name="Trijal08/android_device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="crDroid-15.1" />
 <!-- project name="Trijal08/android_device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="HorizonDroid-15.2" / -->
-<project name="Trijal08/android_device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" remote="github" revision="lineage-22.1" />
+<project name="Trijal08/android_device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" remote="github" revision="lineage-22.2" />
 
 <!-- YAAP OnePlus Vendor Trees -->
 <project name="yaap/proprietary_vendor_oneplus_waffle" path="vendor/oneplus/waffle" remote="github" revision="fifteen" clone-depth="1" />
@@ -43,7 +39,7 @@
 <project path="vendor/qcom/opensource/commonsys/dpm" name="la/platform/vendor/qcom-opensource/dpm-commonsys" remote="clo" />
 
 <!-- LineageOS and YAAP OnePlus Hardware Trees -->
-<project name="Trijal08/android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-22.1-sm8650" />
+<project name="Trijal08/android_hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-22.2" />
 <project path="device/qcom/common" name="yaap/device_qcom_common" remote="github" revision="fifteen" />
 <!-- project name="yaap/device_qcom_sepolicy_vndr_sm8650" path="device/qcom/sepolicy_vndr/sm8650" remote="github" revision="fifteen" / -->
 <!-- project path="hardware/qcom-caf/sm8650/audio/agm" name="yaap/vendor_qcom_opensource_agm-sm8650" remote="github" revision="fifteen" / -->
