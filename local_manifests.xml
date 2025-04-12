@@ -101,6 +101,9 @@
 <!-- project name="Trijal08/anaconda_kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" remote="github" revision="anaconda-pineapple-waffle" clone-depth="1" / -->
 <project name="LineageOS/android_kernel_oneplus_sm8650-modules" path="kernel/oneplus/sm8650-modules" remote="github" revision="lineage-22.2" />
 <project name="LineageOS/android_kernel_oneplus_sm8650-devicetrees" path="kernel/oneplus/sm8650-devicetrees" remote="github" revision="lineage-22.2" />
+<project name="LineageOS/android_kernel_qcom_sm8650" path="kernel/qcom/sm8650" remote="github" revision="lineage-22.2" />
+<project name="LineageOS/android_kernel_qcom_sm8650-modules" path="kernel/qcom/sm8650-modules" remote="github" revision="lineage-22.2" />
+<project name="LineageOS/android_kernel_qcom_sm8650-devicetrees" path="kernel/qcom/sm8650-devicetrees" remote="github" revision="lineage-22.2" />
 
 <!-- Extra trees -->
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
