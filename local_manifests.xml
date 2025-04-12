@@ -97,13 +97,13 @@
 <!-- project name="TheXPerienceProject/android_device_oneplus_waffle-kernel" path="device/oneplus/waffle-kernel" remote="github" revision="xpe-19.0-qpr1" clone-depth="1" / -->
 
 <!-- Kernel Source -->
-<project name="yaap/kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" remote="github" revision="fifteen" clone-depth="1" />
-<!-- project name="Trijal08/anaconda_kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" remote="github" revision="anaconda-pineapple-waffle" clone-depth="1" / -->
-<project name="LineageOS/android_kernel_oneplus_sm8650-modules" path="kernel/oneplus/sm8650-modules" remote="github" revision="lineage-22.2" />
-<project name="LineageOS/android_kernel_oneplus_sm8650-devicetrees" path="kernel/oneplus/sm8650-devicetrees" remote="github" revision="lineage-22.2">
+<project name="yaap/kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" remote="github" revision="fifteen" clone-depth="1" >
          <linkfile src="Android.bp" dest="kernel/qcom/sm8650/Android.bp" />
          <linkfile src="Android.mk" dest="kernel/qcom/sm8650/Android.mk" />
 </project>
+<!-- project name="Trijal08/anaconda_kernel_oneplus_sm8650" path="kernel/oneplus/sm8650" remote="github" revision="anaconda-pineapple-waffle" clone-depth="1" / -->
+<project name="LineageOS/android_kernel_oneplus_sm8650-modules" path="kernel/oneplus/sm8650-modules" remote="github" revision="lineage-22.2" />
+<project name="LineageOS/android_kernel_oneplus_sm8650-devicetrees" path="kernel/oneplus/sm8650-devicetrees" remote="github" revision="lineage-22.2" />
 <project name="LineageOS/android_kernel_qcom_sm8650" path="kernel/qcom/sm8650" remote="github" revision="lineage-22.2" />
 
 <!-- Extra trees -->
