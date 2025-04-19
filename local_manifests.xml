@@ -108,8 +108,8 @@
 
 <!-- Include GApps -->
 <project path="vendor/gms" name="vendor-gms-matrixx" remote="matrixx-gitlab" />
-<project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="github" />
-<project path="vendor/pixeloverlays" name="android_vendor_pixeloverlays" remote="github" />
-<project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="github" />
+<project path="vendor/pixel-framework" name="ProjectMatrixx/android_vendor_pixel-framework" remote="github" />
+<project path="vendor/pixeloverlays" name="ProjectMatrixx/android_vendor_pixeloverlays" remote="github" />
+<project path="vendor/google/overlays/ThemeIcons" name="ProjectMatrixx/vendor_google_overlays_ThemeIcons" remote="github" />
 
 </manifest>
