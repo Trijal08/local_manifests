@@ -8,6 +8,10 @@
 <remote  name="yaap-gitlab"
          fetch="https://gitlab.com/yaosp/" />
 
+<remote  name="matrixx-gitlab"
+         fetch="https://gitlab.com/dark.phnx12"
+         revision="refs/heads/15.0" />
+
 <!-- Removed Projects -->
 <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" />
 <remove-project path="vendor/qcom/opensource/interfaces" />
@@ -101,5 +105,11 @@
 <!-- Extra trees -->
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
+
+<!-- Include GApps -->
+<project path="vendor/gms" name="vendor-gms-matrixx" remote="matrixx-gitlab" />
+<project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="github" />
+<project path="vendor/pixeloverlays" name="android_vendor_pixeloverlays" remote="github" />
+<project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="github" />
 
 </manifest>
