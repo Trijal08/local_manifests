@@ -28,6 +28,7 @@
 <remove-project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" />
 <remove-project path="hardware/qcom-caf/sm8650/display" />
 <remove-project path="device/qcom/sepolicy_vndr/sm8650" />
+<remove-project path="vendor/bcr" />
 
 <!-- LineageOS OnePlus Device Trees -->
 <project name="Trijal08/android_device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="Infinity_X-15.2" />
