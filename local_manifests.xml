@@ -8,10 +8,6 @@
 <remote  name="yaap-gitlab"
          fetch="https://gitlab.com/yaosp/" />
 
-<remote  name="matrixx-gitlab"
-         fetch="https://gitlab.com/dark.phnx12"
-         revision="refs/heads/15.0" />
-
 <!-- Removed Projects -->
 <remove-project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" />
 <remove-project path="vendor/qcom/opensource/interfaces" />
@@ -30,7 +26,7 @@
 <remove-project path="device/qcom/sepolicy_vndr/sm8650" />
 
 <!-- LineageOS OnePlus Device Trees -->
-<project name="Trijal08/android_device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="crDroid-15.2" />
+<project name="Trijal08/android_device_oneplus_waffle" path="device/oneplus/waffle" remote="github" revision="Matrixx-15.2" />
 <project name="Trijal08/android_device_oneplus_sm8650-common" path="device/oneplus/sm8650-common" remote="github" revision="lineage-22.2" />
 
 <!-- LineageOS OnePlus Vendor Trees -->
@@ -105,11 +101,5 @@
 <!-- Extra trees -->
 <project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="github" revision="main" />
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
-
-<!-- Include GApps -->
-<project path="vendor/gms" name="vendor-gms-matrixx" remote="matrixx-gitlab" />
-<!-- project path="vendor/pixel-framework" name="ProjectMatrixx/android_vendor_pixel-framework" remote="github" revision="15.0" / -->
-<project path="vendor/pixeloverlays" name="ProjectMatrixx/android_vendor_pixeloverlays" remote="github" revision="15.0" />
-<project path="vendor/google/overlays/ThemeIcons" name="ProjectMatrixx/vendor_google_overlays_ThemeIcons" remote="github" revision="15.0" />
 
 </manifest>
