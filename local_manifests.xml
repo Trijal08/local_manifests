@@ -3,7 +3,7 @@
 
 <remote  name="clo"
          fetch="https://git.codelinaro.org/clo/"
-         revision="refs/tags/LA.QSSI.15.0.r1-10300-qssi.0" />
+         revision="refs/tags/LA.QSSI.16.0-23700-qssi.0" />
 
 <remote  name="yaap-gitlab"
          fetch="https://gitlab.com/yaosp/" />
