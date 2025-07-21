@@ -7,6 +7,9 @@
 <remote  name="ryukftw-gitlab"
          fetch="https://gitlab.com/ryukftw/" />
 
+<!-- Removed Projects -->
+<remove-project path="hardware/qcom-caf/sm8250/audio" />
+
 <!-- LineageOS Realme Device Trees -->
 <project name="ryukftw/device_realme_RMX3371" path="device/realme/RMX3371" remote="github" revision="lineage-23.0" />
 
@@ -15,6 +18,7 @@
 
 <!-- LineageOS OnePlus/Realme Hardware Trees -->
 <project name="ryukftw/hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-23.0" />
+<project name="ryukftw/hardware_qcom-caf_sm8250_audio" path="hardware/qcom-caf/sm8250/audio" remote="github" revision="16" />
 
 <!-- Kernel Source -->
 <project name="ryukftw/kernel_realme_RMX3371" path="kernel/realme/sm8250" remote="github" revision="phoeniX-AOSP" clone-depth="1" />
