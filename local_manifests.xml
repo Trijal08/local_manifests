@@ -27,5 +27,6 @@
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
 <!-- project name="proprietary_vendor_oplus_camera" path="vendor/oplus/camera" remote="ryukftw-gitlab" revision="fifteen" / -->
 <project name="ryukftw/hardware_dolby" path="hardware/dolby" remote="github" revision="15" />
+<project name="PixelOS-AOSP/vendor_google_overlays_ThemeIcons" remote="github" revision="fifteen" />
 
 </manifest>
