@@ -22,7 +22,7 @@
 <project name="ryukftw/hardware_qcom-caf_sm8250_audio" path="hardware/qcom-caf/sm8250/audio" remote="github" revision="16" />
 
 <!-- Kernel Source -->
-<project name="ryukftw/kernel_realme_RMX3371" path="kernel/realme/sm8250" remote="github" revision="phoeniX-AOSP" clone-depth="1" />
+<project name="ryukftw/kernel_realme_RMX3371" path="kernel/realme/sm8250" remote="github" revision="phoeniX-KSU" clone-depth="1" />
 
 <!-- Extra trees -->
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
