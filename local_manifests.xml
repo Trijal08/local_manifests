@@ -17,7 +17,7 @@
 <project name="ryukftw/hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-23.0" />
 
 <!-- Kernel Source -->
-<project name="ryukftw/kernel_realme_sm8250" path="kernel/realme/sm8250" remote="github" revision="15" clone-depth="1" />
+<project name="ryukftw/kernel_realme_RMX3371" path="kernel/realme/sm8250" remote="github" revision="phoeniX-AOSP" clone-depth="1" />
 
 <!-- Extra trees -->
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
