@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote  name="clo"
-         fetch="https://git.codelinaro.org/clo/"
-         revision="refs/tags/LA.QSSI.15.0.r1-10300-qssi.0" />
-
-<remote  name="yaap-gitlab"
-         fetch="https://gitlab.com/yaosp/" />
+<remote  name="github"
+         fetch="https://github.com/" />
 
 <!-- Removed Projects -->
 
