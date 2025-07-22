@@ -9,7 +9,6 @@
 
 <!-- Removed Projects -->
 <remove-project path="hardware/qcom-caf/sm8250/audio" />
-<remove-project path="vendor/google/overlays/ThemeIcons" />
 
 <!-- LineageOS Realme Device Trees -->
 <project name="Trijal08/android_device_realme_RMX3371" path="device/realme/RMX3371" remote="github" revision="Mist_OS-16.0" />
