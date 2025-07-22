@@ -12,14 +12,17 @@
 
 <!-- LineageOS Realme Device Trees -->
 <project name="Trijal08/android_device_realme_RMX3371" path="device/realme/RMX3371" remote="github" revision="Mist_OS-16.0" />
+<project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github" revision="lineage-23.0" />
 
 <!-- LineageOS Realme Vendor Trees -->
 <project name="Trijal08/vendor_realme_RMX3371" path="vendor/realme/RMX3371" remote="github" revision="lineage-23.0" clone-depth="1" />
+<project name="LineageOS/adroid_vendor_lineage" path="vendor/lineage" remote="github" revision="lineage-23.0" >
+    <linkfile src="config/device_framework_matrix.xml" dest="vendor/voltage/config/device_framework_matrix.xml" />
+</project>
 
 <!-- LineageOS OnePlus/Realme Hardware Trees -->
 <project name="Trijal08/android_hardware_oplus-spartan" path="hardware/oplus" remote="github" revision="lineage-23.0" />
 <project name="ryukftw/hardware_qcom-caf_sm8250_audio" path="hardware/qcom-caf/sm8250/audio" remote="github" revision="16" />
-<project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="github" revision="lineage-23.0" />
 
 <!-- Kernel Source -->
 <project name="ryukftw/kernel_realme_RMX3371" path="kernel/realme/sm8250" remote="github" revision="phoeniX-KSU" clone-depth="1" />
