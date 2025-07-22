@@ -18,7 +18,7 @@
 <project name="ryukftw/vendor_realme_RMX3371" path="vendor/realme/RMX3371" remote="github" revision="lineage-23.0" clone-depth="1" />
 
 <!-- LineageOS OnePlus/Realme Hardware Trees -->
-<project name="Trijal08/android_hardware_oplus-spartan" path="hardware/oplus" remote="github" revision="sixteen" />
+<project name="ryukftw/hardware_oplus" path="hardware/oplus" remote="github" revision="lineage-23.0" />
 <project name="ryukftw/hardware_qcom-caf_sm8250_audio" path="hardware/qcom-caf/sm8250/audio" remote="github" revision="16" />
 
 <!-- Kernel Source -->
