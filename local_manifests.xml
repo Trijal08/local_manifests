@@ -15,7 +15,6 @@
 <remove-project path="vendor/qcom/opensource/vibrator" />
 <remove-project path="vendor/qcom/opensource/power" />
 <remove-project path="hardware/qcom-caf/wlan" />
-<remove-project path="hardware/qcom-caf/thermal" />
 <remove-project path="hardware/qcom-caf/common" />
 <remove-project path="hardware/qcom-caf/sm8650/audio/agm" />
 <remove-project path="hardware/qcom-caf/sm8650/audio/pal" />
