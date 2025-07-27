@@ -15,7 +15,7 @@
 <project name="Trijal08/android_device_realme_RMX3371" path="device/realme/RMX3371" remote="github" revision="Mist_OS-16.0" />
 
 <!-- LineageOS Realme Vendor Trees -->
-<project name="Trijal08/vendor_realme_RMX3371" path="vendor/realme/RMX3371" remote="github" revision="16/dolby" clone-depth="1" />
+<project name="ryukftw/vendor_realme_RMX3371" path="vendor/realme/RMX3371" remote="github" revision="16/dolby" clone-depth="1" />
 
 <!-- LineageOS OnePlus/Realme Hardware Trees -->
 <project name="Trijal08/android_hardware_oplus-spartan" path="hardware/oplus" remote="github" revision="lineage-23.0" />
