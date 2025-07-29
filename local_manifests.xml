@@ -12,7 +12,7 @@
 <remove-project path="vendor/google/overlays/ThemeIcons" />
 
 <!-- LineageOS Realme Device Trees -->
-<project name="Trijal08/android_device_realme_RMX3371" path="device/realme/RMX3371" remote="gh" revision="Mist_OS-16.0" />
+<project name="Trijal08/android_device_realme_RMX3371" path="device/realme/RMX3371" remote="gh" revision="LunarisOS-16.0" />
 
 <!-- LineageOS Realme Vendor Trees -->
 <project name="ryukftw/vendor_realme_RMX3371" path="vendor/realme/RMX3371" remote="gh" revision="16/dolby" clone-depth="1" />
