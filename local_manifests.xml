@@ -10,9 +10,12 @@
 <!-- Removed Projects -->
 <remove-project path="hardware/qcom-caf/sm8250/audio" />
 <remove-project path="vendor/google/overlays/ThemeIcons" />
+<remove-project path="hardware/google/pixel" />
+<remove-project path="hardware/google/pixel-sepolicy" />
 
 <!-- LineageOS Realme Device Trees -->
 <project name="Trijal08/android_device_realme_RMX3371" path="device/realme/RMX3371" remote="gh" revision="Mist_OS-16.0" />
+<project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="gh" revision="lineage-23.0" />
 
 <!-- LineageOS Realme Vendor Trees -->
 <project name="ryukftw/vendor_realme_RMX3371" path="vendor/realme/RMX3371" remote="gh" revision="16/dolby" clone-depth="1" />
@@ -20,6 +23,8 @@
 <!-- LineageOS OnePlus/Realme Hardware Trees -->
 <project name="ryukftw/hardware_oplus" path="hardware/oplus" remote="gh" revision="lineage-23.0" />
 <project name="ryukftw/hardware_qcom-caf_sm8250_audio" path="hardware/qcom-caf/sm8250/audio" remote="gh" revision="16" />
+<project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="gh" revision="lineage-23.0" />
+<project name="LineageOS/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="gh" revision="lineage-23.0" />
 
 <!-- Kernel Source -->
 <project name="Trijal08/anaconda_kernel_realme_RMX3371" path="kernel/realme/sm8250" remote="gh" revision="anaconda-kona-spartan" clone-depth="1" />
