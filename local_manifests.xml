@@ -109,7 +109,7 @@
 <project name="yaap/kernel_oneplus_sm8650-devicetrees" path="kernel/oneplus/sm8650-devicetrees" remote="gh" revision="sixteen" />
 
 <!-- Extra trees -->
-<project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" />
+<!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="v4a" />
 
 </manifest>
