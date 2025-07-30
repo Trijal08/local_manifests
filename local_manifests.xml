@@ -27,7 +27,8 @@
 <remove-project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" />
 <remove-project path="hardware/qcom-caf/sm8650/display" />
 <remove-project path="device/qcom/sepolicy_vndr/sm8650" />
-<remove-project path="hardware/lineage/interfaces" /><remove-project path="hardware/google/pixel" />
+<remove-project path="hardware/lineage/interfaces" />
+<remove-project path="hardware/google/pixel" />
 <remove-project path="hardware/google/pixel-sepolicy" />
 
 <!-- LineageOS OnePlus Device Trees -->
