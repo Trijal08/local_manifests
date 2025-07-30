@@ -95,7 +95,6 @@
 <project path="vendor/qcom/opensource/usb" name="yaap/vendor_qcom_opensource_usb" remote="gh" revision="sixteen" />
 <project path="vendor/qcom/opensource/vibrator" name="yaap/vendor_qcom_opensource_vibrator" remote="gh" revision="sixteen" />
 <project path="vendor/qcom/opensource/power" name="yaap/vendor_qcom_opensource_power" remote="gh" revision="sixteen" />
-<project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar" remote="gh" revision="lineage-22.0" />
 <project path="vendor/qcom/common" name="vendor_qcom_common" remote="yaap-gitlab" revision="sixteen" />
 <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" remote="gh" revision="lineage-23.0" />
 <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" remote="gh" revision="lineage-23.0" />
