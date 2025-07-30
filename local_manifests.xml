@@ -27,8 +27,7 @@
 <remove-project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" />
 <remove-project path="hardware/qcom-caf/sm8650/display" />
 <remove-project path="device/qcom/sepolicy_vndr/sm8650" />
-<remove-project path="hardware/lineage/interfaces" />
-<remove-project path="hardware/google/pixel" />
+<remove-project path="hardware/lineage/interfaces" /><remove-project path="hardware/google/pixel" />
 <remove-project path="hardware/google/pixel-sepolicy" />
 
 <!-- LineageOS OnePlus Device Trees -->
@@ -44,7 +43,6 @@
 <project path="vendor/qcom/opensource/commonsys/dpm" name="la/platform/vendor/qcom-opensource/dpm-commonsys" remote="clo" />
 
 <!-- LineageOS and YAAP OnePlus Hardware Trees -->
-<project name="LineageOS/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="gh" revision="lineage-23.0" />
 <project name="Trijal08/android_hardware_oplus" path="hardware/oplus" remote="gh" revision="lineage-23.0" />
 <project path="device/qcom/common" name="yaap/device_qcom_common" remote="gh" revision="sixteen" />
 <project name="yaap/device_qcom_sepolicy_vndr_sm8650" path="device/qcom/sepolicy_vndr/sm8650" remote="gh" revision="sixteen" />
