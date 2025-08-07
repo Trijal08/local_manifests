@@ -31,7 +31,7 @@
 <remove-project path="hardware/google/pixel-sepolicy" />
 <remove-project path="vendor/qcom/opensource/audio-hal/st-hal" />
 <remove-project path="vendor/qcom/opensource/audio-hal/st-hal-ar-legacy" />
-<remove-project path="hardware/lineage/interfaces" />
+<!-- remove-project path="hardware/lineage/interfaces" / -->
 
 <!-- LineageOS OnePlus Device Trees -->
 <project name="Trijal08/android_device_oneplus_waffle" path="device/oneplus/waffle" remote="gh" revision="CherishOS-16.0" />
