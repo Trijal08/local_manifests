@@ -30,6 +30,7 @@
 <remove-project path="hardware/google/pixel" />
 <remove-project path="hardware/google/pixel-sepolicy" />
 <remove-project path="vendor/qcom/opensource/audio-hal/st-hal" />
+<remove-project path="vendor/qcom/opensource/audio-hal/st-hal-ar" />
 <remove-project path="vendor/qcom/opensource/audio-hal/st-hal-ar-legacy" />
 <!-- remove-project path="hardware/lineage/interfaces" / -->
 <remove-project path="hardware/qcom-caf/thermal" />
