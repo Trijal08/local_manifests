@@ -18,11 +18,11 @@
 <project name="ryukftw/vendor_realme_RMX3371" path="vendor/realme/RMX3371" remote="gh" revision="16/dolby" clone-depth="1" />
 
 <!-- LineageOS OnePlus/Realme Hardware Trees -->
-<project name="ryukftw/hardware_oplus" path="hardware/oplus" remote="gh" revision="lineage-23.0" />
+<project name="Trijal08/android_hardware_oplus-spartan" path="hardware/oplus" remote="gh" revision="lineage-23.0" />
 <project name="ryukftw/hardware_qcom-caf_sm8250_audio" path="hardware/qcom-caf/sm8250/audio" remote="gh" revision="16" />
 
 <!-- Kernel Source -->
-<project name="Trijal08/anaconda_kernel_realme_RMX3371" path="kernel/realme/sm8250" remote="gh" revision="anaconda-kona-spartan" clone-depth="1" />
+<project name="Trijal08/anaconda_kernel_realme_RMX3371" path="kernel/realme/sm8250" remote="gh" revision="anaconda-kona-spartan-sukisu" clone-depth="1" />
 
 <!-- Extra trees -->
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="v4a" />
