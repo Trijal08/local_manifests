@@ -4,7 +4,6 @@
 <!-- Removed Projects -->
 <remove-project path="hardware/google/pixel" />
 <remove-project path="hardware/google/pixel-sepolicy" />
-<remove-project path="hardware/google/graphics/common" />
 <remove-project path="hardware/google/gchips" />
 <remove-project path="hardware/google/camera" />
 
@@ -23,7 +22,6 @@
 <project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="github" revision="lineage-23.0" />
 <project name="LineageOS/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="github" revision="lineage-23.0" />
 <project name="LineageOS/android_hardware_google_gchips" path="hardware/google/gchips" remote="github" revision="lineage-23.0" />
-<project name="LineageOS/android_hardware_google_graphics_common" path="hardware/google/graphics/common" remote="github" revision="lineage-23.0" />
 <project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="github" revision="lineage-23.0" />
 
 <!-- Prebuilt Kernel -->
