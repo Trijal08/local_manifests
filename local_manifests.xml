@@ -30,7 +30,7 @@
 
 <!-- Prebuilt Kernel -->
 <!-- project name="Trijal08/android_device_google_caimito-kernels_6.1" path="device/google/caimito-kernels/6.1" remote="gh" revision="16" clone-depth="1" / -->
-<project name="device/google/caimito-kernels/6.1" path="device/google/caimito-kernels/6.1" remote="aosp" revision="android15-qpr2-release" clone-depth="1" />
+<project name="crdroidandroid/android_device_google_caimito-kernels_lineage" path="device/google/caimito-kernels/lineage" remote="gl" revision="16.0" clone-depth="1" />
 
 <!-- Extra trees -->
 <project name="crdroidandroid/proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="gl" revision="16.0" />
