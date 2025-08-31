@@ -11,7 +11,7 @@
 <remove-project path="hardware/qcom-caf/common" />
 
 <!-- crDroid and LineageOS Xiaomi Device Trees -->
-<project name="AliHasan7671/android_device_xiaomi_tapas" path="device/xiaomi/tapas" remote="gh" revision="16" />
+<project name="miuidroidzz/android_device_xiaomi_tapas" path="device/xiaomi/tapas" remote="gh" revision="Mist_OS-16.0" />
 
 <!-- crDroid and LineageOS Xiaomi SEPolicy Trees -->
 <project name="rn124g-development/android_device_qcom_sepolicy_vndr_sm6225" path="device/qcom/sepolicy_vndr/sm6225" remote="gh" revision="sixteen" />
