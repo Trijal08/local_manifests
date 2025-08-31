@@ -23,8 +23,35 @@
 <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="gh" revision="lineage-23.0" />
 
 <project name="rn124g-development/hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="gh" revision="sixteen" >
+         <!-- add guard for AOSP hardware/qcom dir -->
          <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+         <!-- add guards for CAF repositories -->
          <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
+         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/msm8953/Android.bp" />
+         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8953/Android.mk" />
+         <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+         <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
+         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+         <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8450/audio/Android.mk" />
+         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8450/Android.bp" />
+         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8450/Android.mk" />
+         <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8550/audio/Android.mk" />
+         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8550/Android.mk" />
+         <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm8650/audio/Android.mk" />
+         <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
+         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
 </project>
 <project path="hardware/qcom-caf/sm6225/audio/agm" name="rn124g-development/android_hardware_qcom-caf_sm6225_audio_agm" remote="gh" revision="sixteen" />
 <project path="hardware/qcom-caf/sm6225/audio/pal" name="rn124g-development/android_hardware_qcom-caf_sm6225_audio_pal" remote="gh" revision="sixteen" />
@@ -38,6 +65,8 @@
 <project name="AliHasan7671/android_device_xiaomi_tapas-kernel" path="device/xiaomi/tapas-kernel" remote="gh" revision="16" clone-depth="1" />
 
 <!-- Extra trees -->
+<project name="BaranAspect-Development/android_vendor_xiaomi_miuicamera-topaz" path="vendor/xiaomi/miuicamera-topaz" remote="gh" revision="lineage-22.2" />
+<project name="BaranAspect-Development/android_device_xiaomi_miuicamera-topaz" path="device/xiaomi/miuicamera-topaz" remote="gh" revision="lineage-22.2" />
 <project name="swiitch-OFF-Lab/hardware_dolby" path="hardware/dolby" remote="gh" revision="XiaomiDolby-15" />
 <!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="v4a" />
