@@ -14,7 +14,7 @@
 <project name="AliHasan7671/android_device_xiaomi_tapas" path="device/xiaomi/tapas" remote="gh" revision="16" />
 
 <!-- crDroid and LineageOS Xiaomi SEPolicy Trees -->
-<project name="rn124g-development/android_device_qcom_sepolicy_vndr_sm6225" path="device/qcom/sepolicy_vndr/sm6225" remote="gh" revision="sixteen" >
+<project name="rn124g-development/android_device_qcom_sepolicy_vndr_sm6225" path="device/qcom/sepolicy_vndr/sm6225" remote="gh" revision="sixteen" />
 
 <!-- LineageOS Xiaomi Vendor Trees -->
 <project name="AliHasan7671/proprietary_vendor_xiaomi_tapas" path="vendor/google/komodo" remote="gh" revision="16" clone-depth="1" />
