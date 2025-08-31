@@ -9,6 +9,7 @@
 
 <!-- Removed Projects -->
 <remove-project path="hardware/qcom-caf/common" />
+<remove-project path="hardware/lineage/interfaces" />
 
 <!-- crDroid and LineageOS Xiaomi Device Trees -->
 <project name="miuidroidzz/android_device_xiaomi_tapas" path="device/xiaomi/tapas" remote="gh" revision="Mist_OS-16.0" />
@@ -21,6 +22,9 @@
 
 <!-- crDroid and LineageOS hardware trees -->
 <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="gh" revision="lineage-23.0" />
+
+<project name="LineageOS/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="gh" revision="lineage-22.2" />
+<project name="LineageOS/android_hardware_lineage_livedisplay" path="hardware/lineage/livedisplay" remote="gh" revision="lineage-22.2" />
 
 <project name="rn124g-development/hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="gh" revision="sixteen" >
          <!-- add guard for AOSP hardware/qcom dir -->
