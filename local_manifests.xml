@@ -9,7 +9,6 @@
 
 <!-- Removed Projects -->
 <remove-project path="hardware/qcom-caf/common" />
-<remove-project path="hardware/dolby" />
 
 <!-- crDroid and LineageOS Xiaomi Device Trees -->
 <project name="AliHasan7671/android_device_xiaomi_tapas" path="device/xiaomi/tapas" remote="gh" revision="16" />
