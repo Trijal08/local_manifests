@@ -38,7 +38,7 @@
 <project name="AliHasan7671/android_device_xiaomi_tapas-kernel" path="device/xiaomi/tapas-kernel" remote="gh" revision="16" clone-depth="1" />
 
 <!-- Extra trees -->
-<project name="swiitch-OFF-Lab/hardware_dolby" path="hardware/dolby" remote="gh" revision="XiaomiDolby-15" />
+<!-- project name="swiitch-OFF-Lab/hardware_dolby" path="hardware/dolby" remote="gh" revision="XiaomiDolby-15" / -->
 <!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="v4a" />
 
