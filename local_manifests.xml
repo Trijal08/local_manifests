@@ -13,7 +13,7 @@
 <remove-project path="hardware/google/camera" />
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_caimito" path="device/google/caimito" remote="gh" revision="LunarisOS-16.0" />
+<project name="Trijal08/android_device_google_caimito" path="device/google/caimito" remote="gh" revision="Mist_OS-16.0" />
 <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="gh" revision="lineage-23.0" />
 <project name="LineageOS/android_device_google_gs101" path="device/google/gs101" remote="gh" revision="lineage-23.0" />
 <project name="Trijal08/android_device_google_zumapro" path="device/google/zumapro" remote="gh" revision="16.0" />
