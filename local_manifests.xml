@@ -20,7 +20,7 @@
 <project name="AliHasan7671/proprietary_vendor_xiaomi_tapas" path="vendor/google/komodo" remote="gh" revision="16" clone-depth="1" />
 
 <!-- crDroid and LineageOS hardware trees -->
-<project name="LineageOS/android_hardware_xiaomi" path="hardware/dolby" remote="gh" revision="lineage-23.0" />
+<project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="gh" revision="lineage-23.0" />
 
 <project name="rn124g-development/hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="gh" revision="sixteen" >
          <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
