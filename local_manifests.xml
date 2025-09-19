@@ -7,6 +7,9 @@
 <remote  name="gl"
          fetch="https://gitlab.com/" />
 
+<remote  name="bb" 
+         fetch="https://bitbucket.com/" />
+
 <!-- Removed Projects -->
 
 
@@ -15,6 +18,7 @@
 
 <!-- LineageOS Pixel Vendor Trees -->
 <project name="sreeshankark/android_vendor_oneplus_avicii" path="vendor/oneplus/avicii" remote="gh" revision="16" clone-depth="1" />
+<project name="sreeshankark/android_vendor_oneplus_apps" path="vendor/oneplus/apps" remote="bb" revision="15" clone-depth="1" />
 
 <!-- crDroid and LineageOS hardware trees -->
 <project name="crdroidandroid/android_hardware_oplus" path="hardware/oplus" remote="gh" revision="16.0" />
