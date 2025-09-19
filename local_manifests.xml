@@ -29,5 +29,7 @@
 <!-- Extra trees -->
 <!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="v4a" />
+<project name="Evolution-X-Devices/packages_apps_OPlusExtras" path="packages/apps/OPlusExtras" remote="gh" revision="bka" />
+<project name="SuperiorOS-Devices/packages_apps_NordLab" path="packages/apps/NordLab" remote="gh" revision="fourteen" />
 
 </manifest>
