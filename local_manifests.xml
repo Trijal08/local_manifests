@@ -9,15 +9,15 @@
 
 <!-- Removed Projects -->
 
-<!-- crDroid and LineageOS Pixel Device Trees -->
+<!-- LineageOS OnePlus Device Trees -->
 <project name="Trijal08/android_device_oneplus_larry" path="device/oneplus/larry" remote="gh" revision="Mist_OS-16.0" />
 <project name="Trijal08/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="gh" revision="16.0" />
 
-<!-- LineageOS Pixel Vendor Trees -->
+<!-- LineageOS OnePlus Vendor Trees -->
 <project name="TheMuppets/proprietary_vendor_oneplus_larry" path="vendor/oneplus/larry" remote="gl" revision="lineage-23.0" clone-depth="1" />
 <project name="TheMuppets/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="gl" revision="lineage-23.0" clone-depth="1" />
 
-<!-- crDroid and LineageOS hardware trees -->
+<!-- LineageOS hardware trees -->
 <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" remote="gh" revision="lineage-23.0" />
 
 <!-- crDroid Kernel Source with KSUN and SuSFS -->
