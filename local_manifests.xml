@@ -23,7 +23,7 @@
 <project name="crdroidandroid/android_hardware_qcom_display" path="hardware/qcom-caf/sm8350/display" remote="gh" revision="16.0-caf-sm8350" />
 
 <!-- crDroid Kernel Source with KSUN and SuSFS -->
-<project name="Trijal08/anaconda_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="gh" revision="anaconda-sm8350-lemonade" clone-depth="1" />
+<project name="Trijal08/anaconda_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="gh" revision="anaconda-lahaina-lemonade" clone-depth="1" />
 
 <!-- Extra trees -->
 <!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
