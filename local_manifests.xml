@@ -21,7 +21,7 @@
 <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" remote="gh" revision="lineage-23.0" />
 
 <!-- crDroid Kernel Source with KSUN and SuSFS -->
-<project name="Trijal08/anaconda_kernel_oneplus_sm6375" path="kernel/oneplus/sm6375" remote="gh" revision="anaconda-lahaina-ziti" clone-depth="1" />
+<project name="Trijal08/anaconda_kernel_oneplus_sm6375" path="kernel/oneplus/sm6375" remote="gh" revision="anaconda-holi-larry" clone-depth="1" />
 
 <!-- Extra trees -->
 <project name="pjgowtham/proprietary_vendor_oplus_camera" path="vendor/oplus/camera" remote="gl" revision="lineage-22.0" />
