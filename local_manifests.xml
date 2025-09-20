@@ -14,8 +14,8 @@
 <project name="Trijal08/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="gh" revision="16.0" />
 
 <!-- LineageOS OnePlus Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_oneplus_larry" path="vendor/oneplus/larry" remote="gl" revision="lineage-23.0" clone-depth="1" />
-<project name="TheMuppets/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="gl" revision="lineage-23.0" clone-depth="1" />
+<project name="TheMuppets/proprietary_vendor_oneplus_larry" path="vendor/oneplus/larry" remote="gh" revision="lineage-23.0" clone-depth="1" />
+<project name="TheMuppets/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="gh" revision="lineage-23.0" clone-depth="1" />
 
 <!-- LineageOS hardware trees -->
 <project name="LineageOS/android_hardware_oplus" path="hardware/oplus" remote="gh" revision="lineage-23.0" />
