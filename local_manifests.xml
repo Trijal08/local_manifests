@@ -11,11 +11,11 @@
 <remove-project path="hardware/qcom-caf/sm8350/display" />
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
-<project name="Trijal08/android_device_oneplus_lemonade" path="device/oneplus/lemonade" remote="gh" revision="Mist_OS-16.0" />
+<project name="Trijal08/android_device_oneplus_lemonadep" path="device/oneplus/lemonadep" remote="gh" revision="Mist_OS-16.0" />
 <project name="crdroidandroid/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="gh" revision="16.0" />
 
 <!-- LineageOS Pixel Vendor Trees -->
-<project name="MatrixxOP9Series/vendor_oneplus_lemonade" path="vendor/oneplus/lemonade" remote="gh" revision="15.0" clone-depth="1" />
+<project name="MatrixxOP9Series/vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" remote="gh" revision="15.0" clone-depth="1" />
 <project name="MatrixxOP9Series/vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="gh" revision="15.0" clone-depth="1" />
 
 <!-- crDroid and LineageOS hardware trees -->
