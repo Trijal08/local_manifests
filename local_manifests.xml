@@ -25,7 +25,7 @@
 <project path="hardware/oplus" name="crdroidandroid/android_hardware_oplus" remote="gh" revision="16.0" />
 
 <!-- Extra trees -->
-<project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" />
+<!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="v4a" />
 
 </manifest>
