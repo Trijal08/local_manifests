@@ -13,20 +13,20 @@
 <remove-project path="hardware/google/camera" />
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_caimito" path="device/google/caimito" remote="gh" revision="Mist_OS-16.0" />
-<project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="gh" revision="lineage-23.0" />
-<project name="LineageOS/android_device_google_gs101" path="device/google/gs101" remote="gh" revision="lineage-23.0" />
-<project name="Trijal08/android_device_google_zumapro" path="device/google/zumapro" remote="gh" revision="Mist_OS-16.0" />
+<project name="Trijal08/android_device_google_caimito" path="device/google/caimito" remote="gh" revision="Mist_OS-16.1" />
+<project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="gh" revision="lineage-23.1" />
+<project name="LineageOS/android_device_google_gs101" path="device/google/gs101" remote="gh" revision="lineage-23.1" />
+<project name="Trijal08/android_device_google_zumapro" path="device/google/zumapro" remote="gh" revision="Mist_OS-16.1" />
 
 <!-- LineageOS Pixel Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_google_komodo" path="vendor/google/komodo" remote="gh" revision="lineage-23.0" clone-depth="1" />
-<project name="TheMuppets/proprietary_vendor_google_caiman" path="vendor/google/caiman" remote="gh" revision="lineage-23.0" clone-depth="1" />
-<project name="TheMuppets/proprietary_vendor_google_tokay" path="vendor/google/tokay" remote="gh" revision="lineage-23.0" clone-depth="1" />
+<project name="TheMuppets/proprietary_vendor_google_komodo" path="vendor/google/komodo" remote="gh" revision="lineage-23.1" clone-depth="1" />
+<project name="TheMuppets/proprietary_vendor_google_caiman" path="vendor/google/caiman" remote="gh" revision="lineage-23.1" clone-depth="1" />
+<project name="TheMuppets/proprietary_vendor_google_tokay" path="vendor/google/tokay" remote="gh" revision="lineage-23.1" clone-depth="1" />
 
 <!-- crDroid and LineageOS hardware trees -->
-<project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="gh" revision="lineage-23.0" />
-<project name="LineageOS/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="gh" revision="lineage-23.0" />
-<project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="gh" revision="lineage-23.0" />
+<project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="gh" revision="lineage-23.1" />
+<project name="LineageOS/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="gh" revision="lineage-23.1" />
+<project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="gh" revision="lineage-23.1" />
 
 <!-- Prebuilt Kernel -->
 <!-- project name="Trijal08/android_device_google_caimito-kernels_6.1" path="device/google/caimito-kernels/6.1" remote="gh" revision="16" clone-depth="1" / -->
