@@ -12,13 +12,11 @@
 <remove-project path="hardware/google/pixel-sepolicy" />
 <remove-project path="hardware/google/camera" />
 
-<remove-project path="vendor/extras" />
-
 <!-- crDroid and LineageOS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_caimito" path="device/google/caimito" remote="gh" revision="Mist_OS-16.0" />
+<project name="Trijal08/android_device_google_caimito" path="device/google/caimito" remote="gh" revision="Matrixx-16.0" />
 <project name="LineageOS/android_device_google_gs-common" path="device/google/gs-common" remote="gh" revision="lineage-23.0" />
 <project name="LineageOS/android_device_google_gs101" path="device/google/gs101" remote="gh" revision="lineage-23.0" />
-<project name="Trijal08/android_device_google_zumapro" path="device/google/zumapro" remote="gh" revision="Mist_OS-16.0" />
+<project name="Trijal08/android_device_google_zumapro" path="device/google/zumapro" remote="gh" revision="16.0" />
 
 <!-- LineageOS Pixel Vendor Trees -->
 <project name="TheMuppets/proprietary_vendor_google_komodo" path="vendor/google/komodo" remote="gh" revision="lineage-23.0" clone-depth="1" />
@@ -40,7 +38,5 @@
 <project name="crdroidandroid/android_packages_apps_PixelParts" path="packages/apps/PixelParts" remote="gh" revision="16.0" />
 <!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
 <!-- project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="v4a" / -->
-
-<project name="Trijal08/vendor_extras" path="vendor/extras" remote="gh" revision="4.3" />
 
 </manifest>
