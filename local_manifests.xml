@@ -29,7 +29,8 @@
 <project name="TheMuppets/proprietary_vendor_google_tokay" path="vendor/google/tokay" remote="gh" revision="lineage-23.0" clone-depth="1" />
 
 <!-- crDroid and LineageOS hardware trees -->
-<project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="gh" revision="lineage-23.1" />
+<!-- project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="gh" revision="lineage-23.1" / -->
+<project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="gh" revision="lineage-23.0" />
 <project name="LineageOS/android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="gh" revision="lineage-23.1" />
 <project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="gh" revision="lineage-23.1" />
 
