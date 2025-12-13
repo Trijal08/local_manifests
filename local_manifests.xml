@@ -11,7 +11,7 @@
 
 
 <!-- Device Trees -->
-<project path="device/oneplus/guacamoleb" name="Trijal08/android_device_oneplus_guacamoleb" remote="gh" revision="Mist_OS-16.0"/>
+<project path="device/oneplus/guacamoleb" name="Trijal08/android_device_oneplus_guacamoleb" remote="gh" revision="Matrixx-16.0"/>
 <project path="device/oneplus/sm8150-common" name="Trijal08/android_device_oneplus_sm8150-common" remote="gh" revision="16.0" />
 
 <!-- Kernel -->
