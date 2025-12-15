@@ -19,10 +19,10 @@
 
 <!-- Vendor folders -->
 <project path="vendor/oneplus/guacamoleb" name="TheMuppets/proprietary_vendor_oneplus_guacamoleb" remote="gh" revision="lineage-23.0" />
-<project path="vendor/oneplus/sm8150-common" name="TheMuppets/proprietary_vendor_oneplus_sm8150-common" remote="gh" revision="lineage-23.0" />
+<project path="vendor/oneplus/sm8150-common" name="crdroidandroid/proprietary_vendor_oneplus_sm8150-common" remote="gh" revision="16.0" />
 
 <!-- LineageOS OnePlus hardware tree -->
-<project path="hardware/oplus" name="LineageOS/android_hardware_oplus" remote="gh" revision="lineage-23.0" />
+<project path="hardware/oplus" name="crdroidandroid/android_hardware_oplus" remote="gh" revision="16.0-extras" />
 <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" remote="gh" revision="16.0" />
 
 <!-- Extra trees -->
