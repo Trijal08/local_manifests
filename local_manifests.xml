@@ -23,6 +23,9 @@
 <!-- Kernel Source -->
 <project name="Trijal08/android_kernel_huawei_kirin970" path="kernel/huawei/kirin970" remote="gh" revision="anaconda-kirin970" clone-depth="1" />
 
+<!-- Custom VNDK Toolchain -->
+<project name="platform/prebuilts/vndk/v29" path="prebuilts/vndk/v29" remote="aosp" revision="android15-qpr1-release" />
+
 <!-- Extra trees -->
 <!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
 <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="v4a" />
