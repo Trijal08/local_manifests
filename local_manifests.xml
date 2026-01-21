@@ -9,10 +9,12 @@
 
 <!-- Removed Projects -->
 <remove-project path="hardware/lineage/interfaces" />
+<remove-project path="device/lineage/sepolicy" />
 
 <!-- LineageOS Huawei Device Trees -->
 <project name="Trijal08/android_device_huawei_emily" path="device/huawei/emily" remote="gh" revision="Mist_OS-16.0" />
 <project name="Trijal08/android_device_huawei_compat" path="device/huawei/compat" remote="gh" revision="lineage-23.0" />
+<project name="Trijal08/device_lineage_sepolicy" path="device/lineage/sepolicy" remote="gh" revision="16" />
 
 <!-- LineageOS Pixel Vendor Trees -->
 <project name="Trijal08/proprietary_vendor_huawei_charlotte" path="vendor/huawei/charlotte" remote="gh" revision="android@14" clone-depth="1" />
