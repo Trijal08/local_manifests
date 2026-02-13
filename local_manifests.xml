@@ -9,6 +9,7 @@
 
 <!-- Removed Projects -->
 <remove-project path="hardware/qcom-caf/sm8350/display" />
+<remove-project path="hardware/lineage/compat" />
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
 <project name="Trijal08/android_device_oneplus_lemonade" path="device/oneplus/lemonade" remote="gh" revision="Mist_OS-16.0" />
@@ -21,6 +22,7 @@
 <!-- crDroid and LineageOS hardware trees -->
 <project name="crdroidandroid/android_hardware_oplus" path="hardware/oplus" remote="gh" revision="16.0" />
 <project name="crdroidandroid/android_hardware_qcom_display" path="hardware/qcom-caf/sm8350/display" remote="gh" revision="16.0-caf-sm8350" />
+<project name="LineageOS/android_hardware_lineage_compat" path="hardware/lineage/compat" remote="gh" revision="lineage-23.2" />
 
 <!-- crDroid Kernel Source with KSUN and SuSFS -->
 <project name="Trijal08/anaconda_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="gh" revision="anaconda-lahaina-lemonade" clone-depth="1" />
