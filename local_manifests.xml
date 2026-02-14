@@ -8,6 +8,7 @@
          fetch="https://gitlab.com/" />
 
 <!-- Removed Projects -->
+<remove-project path="packages/apps/EuiccPolicy" />
 
 <!-- LineageOS OnePlus Device Trees -->
 <project name="Trijal08/android_device_oneplus_larry" path="device/oneplus/larry" remote="gh" revision="Mist_OS-16.2" />
