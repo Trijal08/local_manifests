@@ -26,7 +26,7 @@
 <project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="gh" revision="lineage-23.0" />
 
 <!-- Prebuilt Kernel -->
-<project name="crdroidandroid/android_device_google_bluejay-kernels" path="device/google/bluejay-kernels" remote="gl" revision="lineage-23.0" clone-depth="1" />
+<project name="LineageOS/android_device_google_bluejay-kernels" path="device/google/bluejay-kernels" remote="gh" revision="lineage-23.0" clone-depth="1" />
 
 <!-- Extra trees -->
 <project name="crdroidandroid/proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="gl" revision="16.0" />
