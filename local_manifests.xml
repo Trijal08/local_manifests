@@ -32,6 +32,7 @@
 
 <!-- Kernel Trees -->
 <project name="LineageOS/android_device_google_caimito-kernels" path="device/google/caimito-kernels" remote="gh" revision="lineage-23.2" clone-depth="1" />
+<project name="Trijal08/android_kernel_google_gs-6.1_manifest" path="out-kernel/google/gs-6.1/manifest" remote="gh" revision="lineage-23.2" clone-depth="1" />
          
 <!-- Extra trees -->
 <project name="crdroidandroid/proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="gl" revision="16.0" />
