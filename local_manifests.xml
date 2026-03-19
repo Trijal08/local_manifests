@@ -31,7 +31,6 @@
 <project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="gh" revision="lineage-23.2" />
 
 <!-- Kernel Trees -->
-<!-- project name="Trijal08/android_device_google_caimito-kernels_6.1" path="device/google/caimito-kernels/6.1" remote="gh" revision="16" clone-depth="1" / -->
 <project name="LineageOS/android_device_google_caimito-kernels" path="device/google/caimito-kernels" remote="gh" revision="lineage-23.2" clone-depth="1" />
          
 <!-- Extra trees -->
