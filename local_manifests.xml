@@ -16,7 +16,7 @@
 <project name="TheMuppets/proprietary_vendor_oneplus_sm6375-common" path="vendor/oneplus/sm6375-common" remote="gh" revision="lineage-23.0" clone-depth="1" />
 
 <!-- LineageOS hardware trees -->
-<project name="MistOS-Devices/hardware_oplus" path="hardware/oplus" remote="gh" revision="lineage-23.0" />
+<project name="LineageOS/android_hardware_oplus" path="hardware/oplus" remote="gh" revision="lineage-23.2" />
 
 <!-- crDroid Kernel Source with KSUN and SuSFS -->
 <project name="Trijal08/anaconda_kernel_oneplus_sm6375" path="kernel/oneplus/sm6375" remote="gh" revision="anaconda-holi-larry" clone-depth="1" />
