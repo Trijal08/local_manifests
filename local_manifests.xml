@@ -22,7 +22,7 @@
 <project name="Trijal08/anaconda_kernel_oneplus_sm6375" path="kernel/oneplus/sm6375" remote="gh" revision="anaconda-holi-larry" clone-depth="1" />
 
 <!-- Extra trees -->
-<project name="pjgowtham/proprietary_vendor_oplus_camera" path="vendor/oplus/camera" remote="gl" revision="main" />
+<project name="pjgowtham/proprietary_vendor_oplus_camera" path="vendor/oplus/camera" remote="gl" revision="lineage-22.0" />
 <!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
 <project name="AxionAOSP/android_packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="lineage-23.2" />
 
