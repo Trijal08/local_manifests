@@ -9,18 +9,17 @@
 
 <!-- Removed Projects -->
 <remove-project path="hardware/qcom-caf/sm8350/display" />
-<remove-project path="packages/apps/EuiccPolicy" />
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
 <project name="Trijal08/android_device_oneplus_lemonade" path="device/oneplus/lemonade" remote="gh" revision="Mist_OS-16.0" />
 <project name="crdroidandroid/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="gh" revision="16.0" />
 
 <!-- LineageOS Pixel Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_oneplus_lemonade" path="vendor/oneplus/lemonade" remote="gh" revision="lineage-23.0" clone-depth="1" />
-<project name="TheMuppets/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="gh" revision="lineage-23.0" clone-depth="1" />
+<project name="TheMuppets/proprietary_vendor_oneplus_lemonade" path="vendor/oneplus/lemonade" remote="gh" revision="lineage-23.2" clone-depth="1" />
+<project name="TheMuppets/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="gh" revision="lineage-23.2" clone-depth="1" />
 
 <!-- crDroid and LineageOS hardware trees -->
-<project name="MistOS-Devices/hardware_oplus" path="hardware/oplus" remote="gh" revision="lineage-23.0" />
+<project name="crdroidandroid/android_hardware_oplus" path="hardware/oplus" remote="gh" revision="16.0" />
 <project name="crdroidandroid/android_hardware_qcom_display" path="hardware/qcom-caf/sm8350/display" remote="gh" revision="16.0-caf-sm8350" />
 
 <!-- crDroid Kernel Source with KSUN and SuSFS -->
@@ -28,7 +27,8 @@
 <!-- project name="crdroidandroid/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="gh" revision="16.0" clone-depth="1" / -->
 
 <!-- Extra trees -->
+<!-- project name="EternalMikaelson/proprietary_vendor_oplus_camera" path="vendor/oplus/camera" remote="gh" revision="16" / -->
 <!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
-<project name="Evolution-X-Devices/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="bka" />
+<project name="AxionAOSP/android_packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="lineage-23.2" />
 
 </manifest>
