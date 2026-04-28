@@ -7,25 +7,22 @@
 <remote  name="gl"
          fetch="https://gitlab.com/" />
 
-<!-- Removed Projects -->
-<remove-project path="hardware/qcom-caf/sm8350/display" />
-
 <!-- crDroid and LineageOS Pixel Device Trees -->
-<project name="Trijal08/android_device_oneplus_lemonadep" path="device/oneplus/lemonadep" remote="gh" revision="Mist_OS-16.2" />
-<project name="crdroidandroid/android_device_oneplus_sm8350-common" path="device/oneplus/sm8350-common" remote="gh" revision="16.0" />
+<project name="Trijal08/android_device_oneplus_guacamole" path="device/oneplus/guacamole" remote="gh" revision="Mist_OS-16.2" />
+<project name="Trijal08/android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="gh" revision="16.2" />
 
 <!-- LineageOS Pixel Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_oneplus_lemonadep" path="vendor/oneplus/lemonadep" remote="gh" revision="lineage-23.2" clone-depth="1" />
-<project name="TheMuppets/proprietary_vendor_oneplus_sm8350-common" path="vendor/oneplus/sm8350-common" remote="gh" revision="lineage-23.2" clone-depth="1" />
+<project name="TheMuppets/proprietary_vendor_oneplus_guacamole" path="vendor/oneplus/guacamole" remote="gh" revision="lineage-23.2" />
+<project name="TheMuppets/proprietary_vendor_oneplus_sm8150-common" path="vendor/oneplus/sm8150-common" remote="gh" revision="lineage-23.2" />
 
 <!-- crDroid and LineageOS hardware trees -->
 <project name="crdroidandroid/android_hardware_oplus" path="hardware/oplus" remote="gh" revision="16.0" />
-<project name="crdroidandroid/android_hardware_qcom_display" path="hardware/qcom-caf/sm8350/display" remote="gh" revision="16.0-caf-sm8350" />
 <project name="LineageOS/android_hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" remote="gh" revision="lineage-23.2" />
+<project name="crdroidandroid/android_hardware_dolby" path="hardware/dolby" remote="gh" revision="16.0" />
 
 <!-- crDroid Kernel Source with KSUN and SuSFS -->
-<project name="Trijal08/anaconda_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="gh" revision="anaconda-lahaina-lemonade" clone-depth="1" />
-<!-- project name="crdroidandroid/android_kernel_oneplus_sm8350" path="kernel/oneplus/sm8350" remote="gh" revision="16.0" clone-depth="1" / -->
+<project path="kernel/oneplus/sm8150" name="Trijal08/android_kernel_oneplus_sm8150" remote="gh" revision="anaconda-sm8150" clone-depth="1" />
+<!-- project name="crdroidandroid/android_kernel_oneplus_sm8150" path="kernel/oneplus/sm8150" remote="gh" revision="16.0" clone-depth="1" / -->
 
 <!-- Extra trees -->
 <!-- project name="EternalMikaelson/proprietary_vendor_oplus_camera" path="vendor/oplus/camera" remote="gh" revision="16" / -->
