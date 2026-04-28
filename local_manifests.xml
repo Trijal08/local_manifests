@@ -27,6 +27,7 @@
 <!-- Extra trees -->
 <!-- project name="EternalMikaelson/proprietary_vendor_oplus_camera" path="vendor/oplus/camera" remote="gh" revision="16" / -->
 <!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
+<project name="crdroidandroid/android_packages_apps_DolbyAtmos" path="packages/apps/DolbyAtmos" remote="gh" revision="16.0" />
 <project name="AxionAOSP/android_packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="lineage-23.2" />
 
 </manifest>
