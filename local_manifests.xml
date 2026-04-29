@@ -41,11 +41,7 @@
 <project name="crdroidandroid/proprietary_vendor_google_camera" path="vendor/google/camera" remote="gl" revision="16.0" />
 <project name="crdroidandroid/android_packages_apps_PixelParts" path="packages/apps/PixelParts" remote="gh" revision="16.0" />
 <!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
-<project name="AxionAOSP/android_packages_apps_AxionFx" path="packages/apps/AxionFx" remote="gh" revision="lineage-23.2" />
-<project name="AxionAOSP/android_axion_sdk" path="axion_sdk" remote="gh" revision="lineage-23.2" />
-<project name="AxionAOSP/android_system_media" path="system/media" remote="gh" revision="lineage-23.2" />
-<project name="Trijal08/matrixx_hardware_interfaces" path="hardware/interfaces" remote="gh" revision="16.2" />
-<project name="Trijal08/matrixx_frameworks_av" path="frameworks/av" remote="gh" revision="16.2" />
+<project name="AxionAOSP/android_packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="lineage-23.2" />
 <project name="Matrixx-Devices/vendor_matrixx-priv" path="vendor/matrixx-priv/keys" remote="gh" revision="16" />
 
 </manifest>
