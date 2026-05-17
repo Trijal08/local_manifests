@@ -8,11 +8,11 @@
          fetch="https://gitlab.com/" />
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
-<project name="Trijal08/android_device_oneplus_guacamole" path="device/oneplus/guacamole" remote="gh" revision="Mist_OS-16.2" />
+<project name="Trijal08/android_device_oneplus_guacamoleb" path="device/oneplus/guacamoleb" remote="gh" revision="Mist_OS-16.2" />
 <project name="Trijal08/android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="gh" revision="16.2" />
 
 <!-- LineageOS Pixel Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_oneplus_guacamole" path="vendor/oneplus/guacamole" remote="gh" revision="lineage-23.2" />
+<project name="TheMuppets/proprietary_vendor_oneplus_guacamoleb" path="vendor/oneplus/guacamoleb" remote="gh" revision="lineage-23.2" />
 <project name="TheMuppets/proprietary_vendor_oneplus_sm8150-common" path="vendor/oneplus/sm8150-common" remote="gh" revision="lineage-23.2" />
 
 <!-- crDroid and LineageOS hardware trees -->
