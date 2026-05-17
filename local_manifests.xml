@@ -8,16 +8,16 @@
          fetch="https://gitlab.com/" />
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
-<project name="Trijal08/android_device_oneplus_guacamoleb" path="device/oneplus/guacamoleb" remote="gh" revision="Mist_OS-16.2" />
-<project name="Trijal08/android_device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="gh" revision="16.2" />
+<project name="MistOS-Devices/device_oneplus_guacamoleb" path="device/oneplus/guacamoleb" remote="gh" revision="16.2" />
+<project name="Trijal08/device_oneplus_sm8150-common" path="device/oneplus/sm8150-common" remote="gh" revision="16.2" />
 
 <!-- LineageOS Pixel Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_oneplus_guacamoleb" path="vendor/oneplus/guacamoleb" remote="gh" revision="lineage-23.2" />
-<project name="TheMuppets/proprietary_vendor_oneplus_sm8150-common" path="vendor/oneplus/sm8150-common" remote="gh" revision="lineage-23.2" />
+<project name="Codecity001/vendor_oneplus_guacamoleb-1" path="vendor/oneplus/guacamoleb" remote="gh" revision="16" />
+<project name="Codecity001/vendor_oneplus_sm8150-common-1" path="vendor/oneplus/sm8150-common" remote="gh" revision="16" />
 
 <!-- crDroid and LineageOS hardware trees -->
-<project name="crdroidandroid/android_hardware_oplus" path="hardware/oplus" remote="gh" revision="16.0" />
-<project name="LineageOS/android_hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" remote="gh" revision="lineage-23.2" />
+<project name="Codecity001/hardware_oneplus-1" path="hardware/oplus" remote="gh" revision="16" />
+<!-- project name="LineageOS/android_hardware_pixelworks_interfaces" path="hardware/pixelworks/interfaces" remote="gh" revision="lineage-23.2" / -->
 <project name="crdroidandroid/android_hardware_dolby" path="hardware/dolby" remote="gh" revision="16.0" />
 
 <!-- crDroid Kernel Source with KSUN and SuSFS -->
