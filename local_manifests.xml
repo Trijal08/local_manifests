@@ -21,9 +21,9 @@
 <!-- project name="Trijal08/android_device_google_zumapro" path="device/google/zumapro" remote="gh" revision="lineage-23.2" / -->
 
 <!-- LineageOS Pixel Vendor Trees -->
-<project name="TheMuppets/proprietary_vendor_google_komodo" path="vendor/google/komodo" remote="gh" revision="lineage-23.2" clone-depth="1" />
-<project name="TheMuppets/proprietary_vendor_google_caiman" path="vendor/google/caiman" remote="gh" revision="lineage-23.2" clone-depth="1" />
-<project name="TheMuppets/proprietary_vendor_google_tokay" path="vendor/google/tokay" remote="gh" revision="lineage-23.2" clone-depth="1" />
+<project name="Trijal08/proprietary_vendor_google_komodo" path="vendor/google/komodo" remote="gh" revision="Mist_OS-16.2" clone-depth="1" />
+<project name="Trijal08/proprietary_vendor_google_caiman" path="vendor/google/caiman" remote="gh" revision="Mist_OS-16.2" clone-depth="1" />
+<project name="Trijal08/proprietary_vendor_google_tokay" path="vendor/google/tokay" remote="gh" revision="Mist_OS-16.2" clone-depth="1" />
 
 <!-- crDroid and LineageOS hardware trees -->
 <project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="gh" revision="lineage-23.2" />
