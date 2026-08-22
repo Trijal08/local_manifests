@@ -13,13 +13,12 @@
 <remove-project path="hardware/google/camera" />
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
-<project name="Trijal08/android_device_google_caimito" path="device/google/caimito" remote="gh" revision="Mist_OS-17.0" />
-<project name="Trijal08/android_device_google_zumapro" path="device/google/zumapro" remote="gh" revision="Mist_OS-17.0" />
+<project name="Trijal08/android_device_google_pantah" path="device/google/pantah" remote="gh" revision="Mist_OS-17.0" />
+<project name="Trijal08/android_device_google_gs201" path="device/google/gs201" remote="gh" revision="Mist_OS-17.0" />
 
 <!-- LineageOS Pixel Vendor Trees -->
-<project name="Trijal08/proprietary_vendor_google_komodo" path="vendor/google/komodo" remote="gh" revision="Mist_OS-17.0" clone-depth="1" />
-<project name="Trijal08/proprietary_vendor_google_caiman" path="vendor/google/caiman" remote="gh" revision="Mist_OS-17.0" clone-depth="1" />
-<project name="Trijal08/proprietary_vendor_google_tokay" path="vendor/google/tokay" remote="gh" revision="Mist_OS-17.0" clone-depth="1" />
+<project name="TheMuppets/proprietary_vendor_google_cheetah" path="vendor/google/cheetah" remote="gh" revision="lineage-24.0" clone-depth="1" />
+<project name="TheMuppets/proprietary_vendor_google_panther" path="vendor/google/panther" remote="gh" revision="lineage-24.0" clone-depth="1" />
 
 <!-- crDroid and LineageOS hardware trees -->
 <project name="LineageOS/android_hardware_google_pixel" path="hardware/google/pixel" remote="gh" revision="lineage-24.0" />
@@ -27,7 +26,7 @@
 <project name="LineageOS/android_hardware_google_camera" path="hardware/google/camera" remote="gh" revision="lineage-24.0" />
 
 <!-- Kernel Trees -->
-<project name="LineageOS/android_device_google_caimito-kernels" path="device/google/caimito-kernels" remote="gh" revision="lineage-24.0" clone-depth="1" />
+<project name="LineageOS/android_device_google_pantah-kernels" path="device/google/pantah-kernels" remote="gh" revision="lineage-24.0" clone-depth="1" />
          
 <!-- Extra trees -->
 <project name="crdroidandroid/proprietary_vendor_google_faceunlock" path="vendor/google/faceunlock" remote="gl" revision="16.0" />
