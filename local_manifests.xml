@@ -11,6 +11,7 @@
 <remove-project path="hardware/google/pixel" />
 <remove-project path="hardware/google/pixel-sepolicy" />
 <remove-project path="hardware/google/camera" />
+<remove-project path="system/memory/libdmabufheap" />
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
 <project name="Trijal08/android_device_google_caimito" path="device/google/caimito" remote="gh" revision="Mist_OS-17.0" />
@@ -35,5 +36,6 @@
 <project name="crdroidandroid/android_packages_apps_PixelParts" path="packages/apps/PixelParts" remote="gh" revision="16.0" />
 <!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
 <project name="AxionAOSP/android_packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="lineage-23.2" />
+<project name="LineageOS/android_system_memory_libdmabufheap" path="system/memory/libdmabufheap" remote="gh" revision="lineage-24.0" />
 
 </manifest>
