@@ -12,6 +12,9 @@
 <remove-project path="hardware/google/pixel-sepolicy" />
 <remove-project path="hardware/google/camera" />
 <remove-project path="system/memory/libdmabufheap" />
+<remove-project path="system/core" />
+<remove-project path="build/soong" />
+<remove-project path="external/selinux" />
 
 <!-- crDroid and LineageOS Pixel Device Trees -->
 <project name="Trijal08/android_device_google_caimito" path="device/google/caimito" remote="gh" revision="Mist_OS-17.0" />
@@ -37,5 +40,8 @@
 <!-- project name="Chaitanyakm/vendor_bcr" path="vendor/bcr" remote="gh" revision="main" / -->
 <project name="AxionAOSP/android_packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="gh" revision="lineage-23.2" />
 <project name="LineageOS/android_system_memory_libdmabufheap" path="system/memory/libdmabufheap" remote="gh" revision="lineage-24.0" />
+<project name="Trijal08/mist_system_core" path="system/core" remote="gh" revision="17.0" />
+<project name="Trijal08/mist_build_soong" path="build/soong" remote="gh" revision="17.0" />
+<project name="LineageOS/android_external_selinux" path="external/selinux" remote="gh" revision="lineage-24.0" />
 
 </manifest>
